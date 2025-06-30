@@ -440,18 +440,31 @@ SELECT DISTINCT m.manager_id, e.*
 SELECT department_id, department_name, city
   FROM departments d
   LEFT JOIN locations l 
-  ON d.location_id = l.location_id
+  ON d.location_id = l.location_id;
 
--- 44.	Write a query in SQL to display the first and last name, salary, and department ID for all those employees who earn more than the average salary and arrange the list in descending order on salary.
+-- 44.	Write a query in SQL to display the first and last name, salary, and department ID for all those employees who earn 
+-- more than the average salary and arrange the list in descending order on salary.
+SELECT  first_name || ' ' || last_name AS "Name", 
+        salary, 
+        department_id
+  FROM employees
+  WHERE salary > (SELECT AVG(salary) FROM employees)  -- 20149 is the avg salary 
+  ORDER BY salary DESC;
 
--- 45.	Write a query in SQL to display the first and last name, salary, and department ID for those employees who earn more than the maximum salary of a department which ID is 40.
 
--- 46.	Write a query in SQL to display the department name and Id for all departments where they located, that Id is equal to the Id for the location where department number 30 is located.
+-- 45.	Write a query in SQL to display the first and last name, salary, and department ID for those employees who earn 
+-- more than the maximum salary of a department which ID is 40.
+
+-- 46.	Write a query in SQL to display the department name and Id for all departments where they located, that Id is 
+-- equal to the Id for the location where department number 30 is located.
 
 -- 47.	Write a query in SQL to display the details of departments managed by Susan.
 
--- 48.	Write a query to display the department names and the location cities. Only include departments that are located in a country with the country_id 'US'.
+-- 48.	Write a query to display the department names and the location cities. Only include departments that are 
+-- located in a country with the country_id 'US'.
 
--- 49.	Write a query to display the first name and last name of employees along with the name of the department they work in. Only include employees whose last name starts with the letter 'S'.
+-- 49.	Write a query to display the first name and last name of employees along with the name of the department they work in. 
+-- Only include employees whose last name starts with the letter 'S'.
 
--- 50.	Write a query to display the department names and the number of employees in each department. Only include departments with more than 2 employees, and order the result by the number of employees in descending order.
+-- 50.	Write a query to display the department names and the number of employees in each department. 
+-- Only include departments with more than 2 employees, and order the result by the number of employees in descending order.
