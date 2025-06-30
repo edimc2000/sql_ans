@@ -1,4 +1,4 @@
--- 1.	Write a query to display the employee id, employee name (first name and last name) for all employees who earn more than the average salary. 
+1.	Write a query to display the employee id, employee name (first name and last name) for all employees who earn more than the average salary. 
 SELECT employee_id, first_name || ' ' || last_name AS "Employee Name"
  FROM employees
  WHERE salary > ( SELECT AVG( salary ) FROM employees ); 
@@ -373,20 +373,74 @@ SELECT first_name || ' ' || last_name AS "Name",
   );
 
 -- 36.	Write a query to display the names of employees who do not have a department assigned to them.
+SELECT first_name || ' ' || last_name AS "Name"
+  FROM employees 
+  WHERE department_id IS NULL;
 
 -- 37.	Write a query to display the names of all departments and the number of employees in them, even if there are no employees in the department.
+SELECT department_name, count(employee_id)
+  FROM departments d
+  LEFT JOIN employees e
+  ON d.department_id = e.department_id
+  GROUP BY department_name
+  ORDER BY department_name;
 
 -- 38.	Write a query to display the names of employees and the department names, but only include employees whose salary is above 10,000.
+SELECT first_name || ' ' || last_name AS "Name", salary 
+  FROM employees e
+  LEFT JOIN departments d
+  ON d.department_id = e.department_id 
+  WHERE salary > 10000;
 
 -- 39.	Write a query to display department names and the average salary within each department, but only for departments with an average salary above 7000.
+SELECT d.department_name, ROUND(AVG(salary)) AS "Avg_Salary"
+  FROM employees e
+  LEFT JOIN departments d
+  ON d.department_id = e.department_id
+  GROUP by d.department_name
+  HAVING ROUND(AVG(salary)) > 7000;
 
 -- 40.	Write a query to display the names of employees who work in the 'IT' department.
-
+SELECT first_name || ' ' || last_name AS "Name"
+  FROM  (  SELECT * 
+            FROM employees e
+            LEFT JOIN departments d
+            ON e.department_id = d.department_id
+        )
+  WHERE department_name ='IT';
+    
 -- 41.	Write a query which is looking for the names of all employees whose salary is greater than 50% of their department’s total salary bill.
+WITH dept_salary AS (
+                      SELECT 
+                        department_id,
+                        SUM(salary) AS total_salary
+                      FROM 
+                        employees
+                      GROUP BY 
+                        department_id
+                    )
+SELECT 
+    e.first_name,
+    e.last_name
+  FROM 
+      employees e
+  JOIN 
+      dept_salary ds 
+  ON e.department_id = ds.department_id
+  WHERE 
+      e.salary > (ds.total_salary * 0.5);
 
 -- 42.	Write a query to get the details of employees who are managers.
+SELECT DISTINCT m.manager_id, e.*
+  FROM employees m
+  LEFT JOIN employees e
+  ON m.manager_id = e.employee_id;
 
 -- 43.	 Write a query in SQL to display the department code and name for all departments which located in the city London.
+SELECT department_id, department_name, city
+  FROM departments d
+  LEFT JOIN locations l 
+  ON d.location_id = l.location_id
 
 -- 44.	Write a query in SQL to display the first and last name, salary, and department ID for all those employees who earn more than the average salary and arrange the list in descending order on salary.
 
