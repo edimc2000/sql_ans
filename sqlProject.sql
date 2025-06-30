@@ -272,3 +272,70 @@ SELECT e.employee_id,
     ON e.employee_id = j.employee_id
   WHERE salary > 12000
   ORDER BY employee_id;
+
+
+
+-- 26.	Write a query to display the name (first name and last name), salary, department id for 
+-- those employees who earn such amount of salary which is the smallest salary of any of the departments.
+
+
+
+-- 27.	Write a query to display all the information of an employee whose salary and reporting 
+-- person id is 3000 and 121, respectively.
+
+
+
+
+-- 28.	Display the employee name (first name and last name), employee id, and job title for all 
+-- employees whose department location is Toronto.
+
+
+
+-- 29.	Write a query to display the employee name( first name and last name ) and department for 
+-- all employees for any existence of those employees whose salary is more than 3700.
+
+
+
+
+-- 30.	 Write a query to determine who earns more than employee with the last name 'Russell'.
+
+
+-- 31.	Write a query to display the names of employees who don't have a manager.
+
+-- 32.	Write a query to display the names of the departments and the number of employees in each department.
+
+-- 33.	Write a query to display the last name of employees and the city where they are located.
+
+-- 34.	Write a query to display the job titles and the average salary of employees for each job title.
+
+-- 35.	Write a query to display the employee's name, department name, and the city of the department.
+
+-- 36.	Write a query to display the names of employees who do not have a department assigned to them.
+
+-- 37.	Write a query to display the names of all departments and the number of employees in them, even if there are no employees in the department.
+
+-- 38.	Write a query to display the names of employees and the department names, but only include employees whose salary is above 10,000.
+
+-- 39.	Write a query to display department names and the average salary within each department, but only for departments with an average salary above 7000.
+
+-- 40.	Write a query to display the names of employees who work in the 'IT' department.
+
+-- 41.	Write a query which is looking for the names of all employees whose salary is greater than 50% of their department’s total salary bill.
+
+-- 42.	Write a query to get the details of employees who are managers.
+
+-- 43.	 Write a query in SQL to display the department code and name for all departments which located in the city London.
+
+-- 44.	Write a query in SQL to display the first and last name, salary, and department ID for all those employees who earn more than the average salary and arrange the list in descending order on salary.
+
+-- 45.	Write a query in SQL to display the first and last name, salary, and department ID for those employees who earn more than the maximum salary of a department which ID is 40.
+
+-- 46.	Write a query in SQL to display the department name and Id for all departments where they located, that Id is equal to the Id for the location where department number 30 is located.
+
+-- 47.	Write a query in SQL to display the details of departments managed by Susan.
+
+-- 48.	Write a query to display the department names and the location cities. Only include departments that are located in a country with the country_id 'US'.
+
+-- 49.	Write a query to display the first name and last name of employees along with the name of the department they work in. Only include employees whose last name starts with the letter 'S'.
+
+-- 50.	Write a query to display the department names and the number of employees in each department. Only include departments with more than 2 employees, and order the result by the number of employees in descending order.
