@@ -278,37 +278,99 @@ SELECT e.employee_id,
 -- 26.	Write a query to display the name (first name and last name), salary, department id for 
 -- those employees who earn such amount of salary which is the smallest salary of any of the departments.
 
+-- not sure what is required here but my guess is to display the detail for the person earning the least on their departments 
 
 
 -- 27.	Write a query to display all the information of an employee whose salary and reporting 
 -- person id is 3000 and 121, respectively.
 
-
-
+SELECT * 
+  from EMPLOYEES
+  where salary = 3000
+  AND manager_id = 121; 
 
 -- 28.	Display the employee name (first name and last name), employee id, and job title for all 
 -- employees whose department location is Toronto.
 
-
+SELECT  first_name || ' ' || last_name AS "Name",
+        employee_id, 
+        job_title            
+  FROM  (
+          SELECT *
+            FROM employees e
+            LEFT JOIN jobs j
+            ON e.job_id = j.job_id
+            LEFT JOIN departments d
+            ON e.department_id = d.department_id
+            LEFT JOIN locations l
+            ON d.location_id = l.location_id
+        )
+  WHERE city = 'Toronto';
 
 -- 29.	Write a query to display the employee name( first name and last name ) and department for 
 -- all employees for any existence of those employees whose salary is more than 3700.
 
-
-
+SELECT  first_name || ' ' || last_name AS "Name",
+        department_name
+  FROM ( SELECT *
+      FROM employees e
+      LEFT JOIN departments d
+      ON e.department_id = d.department_id
+  )
+  WHERE salary > 3000;
 
 -- 30.	 Write a query to determine who earns more than employee with the last name 'Russell'.
-
+SELECT *
+  FROM employees
+  WHERE salary > (SELECT salary from employees where last_name = 'Russell');
+-- russell earns 14000
 
 -- 31.	Write a query to display the names of employees who don't have a manager.
+SELECT *
+  FROM employees
+  WHERE manager_id IS NULL;
+
 
 -- 32.	Write a query to display the names of the departments and the number of employees in each department.
+SELECT department_name, count(*)
+  FROM (  SELECT *
+            FROM employees e
+            LEFT JOIN departments d
+            ON e.department_id = d.department_id
+        )
+  GROUP BY department_name;
 
 -- 33.	Write a query to display the last name of employees and the city where they are located.
+SELECT last_name, city
+  FROM (  SELECT *
+            FROM employees e
+            LEFT JOIN departments d
+            ON e.department_id = d.department_id
+            LEFT JOIN locations l
+            ON d.location_id = l.location_id
+  );
 
 -- 34.	Write a query to display the job titles and the average salary of employees for each job title.
+SELECT job_title, ROUND(AVG(salary), 2)
+  FROM (  SELECT * 
+            FROM employees e
+            LEFT JOIN jobs j 
+            ON e.job_id = j.job_id
+  )
+  GROUP BY job_title;
+
 
 -- 35.	Write a query to display the employee's name, department name, and the city of the department.
+SELECT first_name || ' ' || last_name AS "Name",
+       department_name,
+       city
+  FROM (  SELECT *
+            FROM employees e
+            LEFT JOIN departments d
+            ON e.department_id = d.department_id
+            LEFT JOIN locations l
+            ON d.location_id = l.location_id
+  );
 
 -- 36.	Write a query to display the names of employees who do not have a department assigned to them.
 
