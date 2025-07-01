@@ -1,0 +1,2162 @@
+
+EMPLOYEE_ID Employee Name                                 
+----------- ----------------------------------------------
+        305 Hareesh Parameswaran                          
+        501 Berkoy Oncay                                  
+         98 Moe Bayram                                    
+        211 SquishMe HishMeh                              
+        100 Steven Kin                                    
+        207 Tech Global                                   
+        208 Moe SquishyHishy                              
+        209 Berkay Onca                                   
+        210 Omar YahYah                                   
+
+9 rows selected. 
+
+
+Employee Name                                  EMPLOYEE_ID     SALARY
+---------------------------------------------- ----------- ----------
+Jason Mallin                                           133       3300
+Michael Rogers                                         134       2900
+Ki Gee                                                 135       2400
+Hazel Philtanker                                       136       2200
+Kelly Chung                                            188       3800
+Jennifer Dilly                                         189       3600
+Timothy Gates                                          190       2900
+Randall Perkins                                        191       2500
+
+8 rows selected. 
+
+
+DEPARTMENT_ID Name                                           JOB_ID     DEPARTMENT_NAME               
+------------- ---------------------------------------------- ---------- ------------------------------
+          100 Nancy Greenberg                                FI_MGR     Finance                       
+          100 Daniel Faviet                                  FI_ACCOUNT Finance                       
+          100 John Chen                                      FI_ACCOUNT Finance                       
+          100 Ismael Sciarra                                 FI_ACCOUNT Finance                       
+          100 Jose Manuel Urman                              FI_ACCOUNT Finance                       
+          100 Luis Popp                                      FI_ACCOUNT Finance                       
+
+6 rows selected. 
+
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                 EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY COMMISSION_PCT MANAGER_ID DEPARTMENT_ID
+----------- -------------------- ------------------------- ------------------------- -------------------- -------- ---------- ---------- -------------- ---------- -------------
+        119 Karen                Colmenares                KCOLMENA                  515.127.4566         10/08/99 PU_CLERK         2500                       114            30
+        127 James                Landry                    JLANDRY                   650.124.1334         14/01/99 ST_CLERK         2200                       120            50
+        128 Steven               Markle                    SMARKLE                   650.124.1434         08/03/00 ST_CLERK         2100                       120            50
+        131 James                Marlow                    JAMRLOW                   650.124.7234         16/02/97 ST_CLERK         2500                       121            50
+        132 TJ                   Olson                     TJOLSON                   650.124.8234         10/04/99 ST_CLERK         2100                       121            50
+        135 Ki                   Gee                       KGEE                      650.127.1734         12/12/99 ST_CLERK         2400                       122            50
+        136 Hazel                Philtanker                HPHILTAN                  650.127.1634         06/02/00 ST_CLERK         2200                       122            50
+        140 Joshua               Patel                     JPATEL                    650.121.1834         06/04/98 ST_CLERK         2500                       123            50
+        144 Peter                Vargas                    PVARGAS                   650.121.2004         09/07/98 ST_CLERK         2500                       124            50
+        182 Martha               Sullivan                  MSULLIVA                  650.507.9878         21/06/99 SH_CLERK         2500                       120            50
+        191 Randall              Perkins                   RPERKINS                  650.505.4876         19/12/99 SH_CLERK         2500                       122            50
+
+11 rows selected. 
+
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_NAME                CITY                           STATE_PROVINCE           
+-------------------- ------------------------- ------------------------------ ------------------------------ -------------------------
+Ellen                Abel                      Sales                          Oxford                         Oxford                   
+Sundar               Ande                      Sales                          Oxford                         Oxford                   
+Mozhe                Atkinson                  Shipping                       South San Francisco            California               
+David                Austin                    IT                             Southlake                      Texas                    
+Hermann              Baer                      Public Relations               Munich                         Bavaria                  
+Shelli               Baida                     Purchasing                     Stretford                      Manchester               
+Amit                 Banda                     Sales                          Oxford                         Oxford                   
+Elizabeth            Bates                     Sales                          Oxford                         Oxford                   
+Moe                  Bayram                    Operations                     South Brunswick                New Jersey               
+Sarah                Bell                      Shipping                       South San Francisco            California               
+David                Bernstein                 Sales                          Oxford                         Oxford                   
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_NAME                CITY                           STATE_PROVINCE           
+-------------------- ------------------------- ------------------------------ ------------------------------ -------------------------
+Laura                Bissot                    Shipping                       South San Francisco            California               
+Harrison             Bloom                     Sales                          Oxford                         Oxford                   
+Alexis               Bull                      Shipping                       South San Francisco            California               
+Anthony              Cabrio                    Shipping                       South San Francisco            California               
+Gerald               Cambrault                 Sales                          Oxford                         Oxford                   
+Nanette              Cambrault                 Sales                          Oxford                         Oxford                   
+John                 Chen                      Finance                        Seattle                        Washington               
+Kelly                Chung                     Shipping                       South San Francisco            California               
+Karen                Colmenares                Purchasing                     Stretford                      Manchester               
+Curtis               Davies                    Shipping                       South San Francisco            California               
+Lex                  De Haan                   Executive                      Seattle                        Washington               
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_NAME                CITY                           STATE_PROVINCE           
+-------------------- ------------------------- ------------------------------ ------------------------------ -------------------------
+Julia                Dellinger                 Shipping                       South San Francisco            California               
+Jennifer             Dilly                     Shipping                       South San Francisco            California               
+Louise               Doran                     Sales                          Oxford                         Oxford                   
+Bruce                Ernst                     IT                             Southlake                      Texas                    
+Alberto              Errazuriz                 Sales                          Oxford                         Oxford                   
+Britney              Everett                   Shipping                       South San Francisco            California               
+Daniel               Faviet                    Finance                        Seattle                        Washington               
+Pat                  Fay                       Marketing                      Toronto                        Ontario                  
+Kevin                Feeney                    Shipping                       South San Francisco            California               
+Jean                 Fleaur                    Shipping                       South San Francisco            California               
+Tayler               Fox                       Sales                          Oxford                         Oxford                   
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_NAME                CITY                           STATE_PROVINCE           
+-------------------- ------------------------- ------------------------------ ------------------------------ -------------------------
+Adam                 Fripp                     Shipping                       South San Francisco            California               
+Timothy              Gates                     Shipping                       South San Francisco            California               
+Ki                   Gee                       Shipping                       South San Francisco            California               
+Girard               Geoni                     Shipping                       South San Francisco            California               
+William              Gietz                     Accounting                     Seattle                        Washington               
+Tech                 Global                    Operations                     South Brunswick                New Jersey               
+Douglas              Grant                     Shipping                       South San Francisco            California               
+Kimberely            Grant                     Sales                          Oxford                         Oxford                   
+Nancy                Greenberg                 Finance                        Seattle                        Washington               
+Danielle             Greene                    Sales                          Oxford                         Oxford                   
+Peter                Hall                      Sales                          Oxford                         Oxford                   
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_NAME                CITY                           STATE_PROVINCE           
+-------------------- ------------------------- ------------------------------ ------------------------------ -------------------------
+Michael              Hartstein                 Marketing                      Toronto                        Ontario                  
+Shelley              Higgins                   Accounting                     Seattle                        Washington               
+Guy                  Himuro                    Purchasing                     Stretford                      Manchester               
+SquishMe             HishMeh                   Public Relations               Munich                         Bavaria                  
+Alexander            Hunold                    IT                             Southlake                      Texas                    
+Alyssa               Hutton                    Sales                          Oxford                         Oxford                   
+Charles              Johnson                   Sales                          Oxford                         Oxford                   
+Vance                Jones                     Shipping                       South San Francisco            California               
+Payam                Kaufling                  Shipping                       South San Francisco            California               
+Alexander            Khoo                      Purchasing                     Stretford                      Manchester               
+Janette              Kin                       Sales                          Oxford                         Oxford                   
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_NAME                CITY                           STATE_PROVINCE           
+-------------------- ------------------------- ------------------------------ ------------------------------ -------------------------
+Steven               Kin                       Executive                      Seattle                        Washington               
+Neena                Kochhar                   Executive                      Seattle                        Washington               
+Sundita              Kumar                     Sales                          Oxford                         Oxford                   
+Renske               Ladwig                    Shipping                       South San Francisco            California               
+James                Landry                    Shipping                       South San Francisco            California               
+David                Lee                       Sales                          Oxford                         Oxford                   
+Jack                 Livingston                Sales                          Oxford                         Oxford                   
+Diana                Lorentz                   IT                             Southlake                      Texas                    
+Jason                Mallin                    Shipping                       South San Francisco            California               
+Steven               Markle                    Shipping                       South San Francisco            California               
+James                Marlow                    Shipping                       South San Francisco            California               
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_NAME                CITY                           STATE_PROVINCE           
+-------------------- ------------------------- ------------------------------ ------------------------------ -------------------------
+Mattea               Marvins                   Sales                          Oxford                         Oxford                   
+Randall              Matos                     Shipping                       South San Francisco            California               
+Susan                Mavris                    Human Resources                London                                                  
+Samuel               McCain                    Shipping                       South San Francisco            California               
+Allan                McEwen                    Sales                          Oxford                         Oxford                   
+Irene                Mikkilineni               Shipping                       South San Francisco            California               
+Kevin                Mourgos                   Shipping                       South San Francisco            California               
+Julia                Nayer                     Shipping                       South San Francisco            California               
+Donald               OConnell                  Shipping                       South San Francisco            California               
+Christopher          Olsen                     Sales                          Oxford                         Oxford                   
+TJ                   Olson                     Shipping                       South San Francisco            California               
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_NAME                CITY                           STATE_PROVINCE           
+-------------------- ------------------------- ------------------------------ ------------------------------ -------------------------
+Berkay               Onca                      Public Relations               Munich                         Bavaria                  
+Berkoy               Oncay                     IT Support                     Seattle                        Washington               
+Lisa                 Ozer                      Sales                          Oxford                         Oxford                   
+Hareesh              Parameswaran              IT Support                     Seattle                        Washington               
+Karen                Partners                  Sales                          Oxford                         Oxford                   
+Valli                Pataballa                 IT                             Southlake                      Texas                    
+Joshua               Patel                     Shipping                       South San Francisco            California               
+Randall              Perkins                   Shipping                       South San Francisco            California               
+Hazel                Philtanker                Shipping                       South San Francisco            California               
+Luis                 Popp                      Finance                        Seattle                        Washington               
+Trenna               Rajs                      Shipping                       South San Francisco            California               
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_NAME                CITY                           STATE_PROVINCE           
+-------------------- ------------------------- ------------------------------ ------------------------------ -------------------------
+Den                  Raphaely                  Purchasing                     Stretford                      Manchester               
+Michael              Rogers                    Shipping                       South San Francisco            California               
+John                 Russell                   Sales                          Oxford                         Oxford                   
+Nandita              Sarchand                  Shipping                       South San Francisco            California               
+Ismael               Sciarra                   Finance                        Seattle                        Washington               
+John                 Seo                       Shipping                       South San Francisco            California               
+Sarath               Sewall                    Sales                          Oxford                         Oxford                   
+Lindsey              Smith                     Sales                          Oxford                         Oxford                   
+William              Smith                     Sales                          Oxford                         Oxford                   
+Moe                  SquishyHishy              Public Relations               Munich                         Bavaria                  
+Stephen              Stiles                    Shipping                       South San Francisco            California               
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_NAME                CITY                           STATE_PROVINCE           
+-------------------- ------------------------- ------------------------------ ------------------------------ -------------------------
+Martha               Sullivan                  Shipping                       South San Francisco            California               
+Patrick              Sully                     Sales                          Oxford                         Oxford                   
+Jonathon             Taylor                    Sales                          Oxford                         Oxford                   
+Winston              Taylor                    Shipping                       South San Francisco            California               
+Sigal                Tobias                    Purchasing                     Stretford                      Manchester               
+Peter                Tucker                    Sales                          Oxford                         Oxford                   
+Oliver               Tuvault                   Sales                          Oxford                         Oxford                   
+Jose Manuel          Urman                     Finance                        Seattle                        Washington               
+Peter                Vargas                    Shipping                       South San Francisco            California               
+Clara                Vishney                   Sales                          Oxford                         Oxford                   
+Shanta               Vollman                   Shipping                       South San Francisco            California               
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_NAME                CITY                           STATE_PROVINCE           
+-------------------- ------------------------- ------------------------------ ------------------------------ -------------------------
+Zack                 Walsh                     Shipping                       South San Francisco            California               
+Matthew              Weiss                     Shipping                       South San Francisco            California               
+Jennifer             Whalen                    Administration                 Seattle                        Washington               
+Omar                 YahYah                    IT Support                     Seattle                        Washington               
+Eleni                Zlotkey                   Sales                          Oxford                         Oxford                   
+
+115 rows selected. 
+
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_ID DEPARTMENT_NAME               
+-------------------- ------------------------- ------------- ------------------------------
+Susan                Mavris                               40 Human Resources               
+John                 Russell                              80 Sales                         
+Karen                Partners                             80 Sales                         
+Alberto              Errazuriz                            80 Sales                         
+Gerald               Cambrault                            80 Sales                         
+Eleni                Zlotkey                              80 Sales                         
+Peter                Tucker                               80 Sales                         
+David                Bernstein                            80 Sales                         
+Peter                Hall                                 80 Sales                         
+Christopher          Olsen                                80 Sales                         
+Nanette              Cambrault                            80 Sales                         
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_ID DEPARTMENT_NAME               
+-------------------- ------------------------- ------------- ------------------------------
+Oliver               Tuvault                              80 Sales                         
+Janette              Kin                                  80 Sales                         
+Patrick              Sully                                80 Sales                         
+Allan                McEwen                               80 Sales                         
+Lindsey              Smith                                80 Sales                         
+Louise               Doran                                80 Sales                         
+Sarath               Sewall                               80 Sales                         
+Clara                Vishney                              80 Sales                         
+Danielle             Greene                               80 Sales                         
+Mattea               Marvins                              80 Sales                         
+David                Lee                                  80 Sales                         
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_ID DEPARTMENT_NAME               
+-------------------- ------------------------- ------------- ------------------------------
+Sundar               Ande                                 80 Sales                         
+Amit                 Banda                                80 Sales                         
+Lisa                 Ozer                                 80 Sales                         
+Harrison             Bloom                                80 Sales                         
+Tayler               Fox                                  80 Sales                         
+William              Smith                                80 Sales                         
+Elizabeth            Bates                                80 Sales                         
+Sundita              Kumar                                80 Sales                         
+Ellen                Abel                                 80 Sales                         
+Alyssa               Hutton                               80 Sales                         
+Jonathon             Taylor                               80 Sales                         
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_ID DEPARTMENT_NAME               
+-------------------- ------------------------- ------------- ------------------------------
+Jack                 Livingston                           80 Sales                         
+Kimberely            Grant                                80 Sales                         
+Charles              Johnson                              80 Sales                         
+
+36 rows selected. 
+
+
+Name                                           HIRE_DAT
+---------------------------------------------- --------
+John Russell                                   01/10/96
+Karen Partners                                 05/01/97
+Alberto Errazuriz                              10/03/97
+Gerald Cambrault                               15/10/99
+Eleni Zlotkey                                  29/01/00
+Peter Tucker                                   30/01/97
+David Bernstein                                24/03/97
+Peter Hall                                     20/08/97
+Christopher Olsen                              30/03/98
+Nanette Cambrault                              09/12/98
+Oliver Tuvault                                 23/11/99
+
+Name                                           HIRE_DAT
+---------------------------------------------- --------
+Janette Kin                                    30/01/96
+Patrick Sully                                  04/03/96
+Allan McEwen                                   01/08/96
+Lindsey Smith                                  10/03/97
+Louise Doran                                   15/12/97
+Sarath Sewall                                  03/11/98
+Danielle Greene                                19/03/99
+Mattea Marvins                                 24/01/00
+David Lee                                      23/02/00
+Sundar Ande                                    24/03/00
+Amit Banda                                     21/04/00
+
+Name                                           HIRE_DAT
+---------------------------------------------- --------
+Lisa Ozer                                      11/03/97
+Harrison Bloom                                 23/03/98
+Tayler Fox                                     24/01/98
+William Smith                                  23/02/99
+Elizabeth Bates                                24/03/99
+Sundita Kumar                                  21/04/00
+Ellen Abel                                     11/05/96
+Alyssa Hutton                                  19/03/97
+Jonathon Taylor                                24/03/98
+Jack Livingston                                23/04/98
+Kimberely Grant                                24/05/99
+
+Name                                           HIRE_DAT
+---------------------------------------------- --------
+Charles Johnson                                04/01/00
+
+34 rows selected. 
+
+no rows selected
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_NAME                CITY                           STATE_PROVINCE           
+-------------------- ------------------------- ------------------------------ ------------------------------ -------------------------
+Mozhe                Atkinson                  Shipping                       South San Francisco            California               
+Hazel                Philtanker                Shipping                       South San Francisco            California               
+Zack                 Walsh                     Shipping                       South San Francisco            California               
+Elizabeth            Bates                     Sales                          Oxford                         Oxford                   
+
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_ID DEPARTMENT_NAME               
+-------------------- ------------------------- ------------- ------------------------------
+Hareesh              Parameswaran                        210 IT Support                    
+Berkoy               Oncay                               210 IT Support                    
+Moe                  Bayram                              200 Operations                    
+SquishMe             HishMeh                              70 Public Relations              
+Steven               Kin                                  90 Executive                     
+Neena                Kochhar                              90 Executive                     
+Lex                  De Haan                              90 Executive                     
+Alexander            Hunold                               60 IT                            
+Bruce                Ernst                                60 IT                            
+David                Austin                               60 IT                            
+Valli                Pataballa                            60 IT                            
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_ID DEPARTMENT_NAME               
+-------------------- ------------------------- ------------- ------------------------------
+Diana                Lorentz                              60 IT                            
+Nancy                Greenberg                           100 Finance                       
+Daniel               Faviet                              100 Finance                       
+John                 Chen                                100 Finance                       
+Ismael               Sciarra                             100 Finance                       
+Jose Manuel          Urman                               100 Finance                       
+Luis                 Popp                                100 Finance                       
+Den                  Raphaely                             30 Purchasing                    
+Alexander            Khoo                                 30 Purchasing                    
+Shelli               Baida                                30 Purchasing                    
+Sigal                Tobias                               30 Purchasing                    
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_ID DEPARTMENT_NAME               
+-------------------- ------------------------- ------------- ------------------------------
+Guy                  Himuro                               30 Purchasing                    
+Karen                Colmenares                           30 Purchasing                    
+Matthew              Weiss                                50 Shipping                      
+Adam                 Fripp                                50 Shipping                      
+Payam                Kaufling                             50 Shipping                      
+Shanta               Vollman                              50 Shipping                      
+Kevin                Mourgos                              50 Shipping                      
+Julia                Nayer                                50 Shipping                      
+Irene                Mikkilineni                          50 Shipping                      
+James                Landry                               50 Shipping                      
+Steven               Markle                               50 Shipping                      
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_ID DEPARTMENT_NAME               
+-------------------- ------------------------- ------------- ------------------------------
+Laura                Bissot                               50 Shipping                      
+Mozhe                Atkinson                             50 Shipping                      
+James                Marlow                               50 Shipping                      
+TJ                   Olson                                50 Shipping                      
+Jason                Mallin                               50 Shipping                      
+Michael              Rogers                               50 Shipping                      
+Ki                   Gee                                  50 Shipping                      
+Hazel                Philtanker                           50 Shipping                      
+Renske               Ladwig                               50 Shipping                      
+Stephen              Stiles                               50 Shipping                      
+John                 Seo                                  50 Shipping                      
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_ID DEPARTMENT_NAME               
+-------------------- ------------------------- ------------- ------------------------------
+Joshua               Patel                                50 Shipping                      
+Trenna               Rajs                                 50 Shipping                      
+Curtis               Davies                               50 Shipping                      
+Randall              Matos                                50 Shipping                      
+Peter                Vargas                               50 Shipping                      
+John                 Russell                              80 Sales                         
+Karen                Partners                             80 Sales                         
+Alberto              Errazuriz                            80 Sales                         
+Gerald               Cambrault                            80 Sales                         
+Eleni                Zlotkey                              80 Sales                         
+Peter                Tucker                               80 Sales                         
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_ID DEPARTMENT_NAME               
+-------------------- ------------------------- ------------- ------------------------------
+David                Bernstein                            80 Sales                         
+Peter                Hall                                 80 Sales                         
+Christopher          Olsen                                80 Sales                         
+Nanette              Cambrault                            80 Sales                         
+Oliver               Tuvault                              80 Sales                         
+Janette              Kin                                  80 Sales                         
+Patrick              Sully                                80 Sales                         
+Allan                McEwen                               80 Sales                         
+Lindsey              Smith                                80 Sales                         
+Louise               Doran                                80 Sales                         
+Sarath               Sewall                               80 Sales                         
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_ID DEPARTMENT_NAME               
+-------------------- ------------------------- ------------- ------------------------------
+Clara                Vishney                              80 Sales                         
+Danielle             Greene                               80 Sales                         
+Mattea               Marvins                              80 Sales                         
+David                Lee                                  80 Sales                         
+Sundar               Ande                                 80 Sales                         
+Amit                 Banda                                80 Sales                         
+Lisa                 Ozer                                 80 Sales                         
+Harrison             Bloom                                80 Sales                         
+Tayler               Fox                                  80 Sales                         
+William              Smith                                80 Sales                         
+Elizabeth            Bates                                80 Sales                         
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_ID DEPARTMENT_NAME               
+-------------------- ------------------------- ------------- ------------------------------
+Sundita              Kumar                                80 Sales                         
+Ellen                Abel                                 80 Sales                         
+Alyssa               Hutton                               80 Sales                         
+Jonathon             Taylor                               80 Sales                         
+Jack                 Livingston                           80 Sales                         
+Kimberely            Grant                                80 Sales                         
+Charles              Johnson                              80 Sales                         
+Winston              Taylor                               50 Shipping                      
+Jean                 Fleaur                               50 Shipping                      
+Martha               Sullivan                             50 Shipping                      
+Girard               Geoni                                50 Shipping                      
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_ID DEPARTMENT_NAME               
+-------------------- ------------------------- ------------- ------------------------------
+Nandita              Sarchand                             50 Shipping                      
+Alexis               Bull                                 50 Shipping                      
+Julia                Dellinger                            50 Shipping                      
+Anthony              Cabrio                               50 Shipping                      
+Kelly                Chung                                50 Shipping                      
+Jennifer             Dilly                                50 Shipping                      
+Timothy              Gates                                50 Shipping                      
+Randall              Perkins                              50 Shipping                      
+Sarah                Bell                                 50 Shipping                      
+Britney              Everett                              50 Shipping                      
+Samuel               McCain                               50 Shipping                      
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_ID DEPARTMENT_NAME               
+-------------------- ------------------------- ------------- ------------------------------
+Vance                Jones                                50 Shipping                      
+Zack                 Walsh                                50 Shipping                      
+Kevin                Feeney                               50 Shipping                      
+Donald               OConnell                             50 Shipping                      
+Douglas              Grant                                50 Shipping                      
+Jennifer             Whalen                               10 Administration                
+Michael              Hartstein                            20 Marketing                     
+Pat                  Fay                                  20 Marketing                     
+Susan                Mavris                               40 Human Resources               
+Hermann              Baer                                 70 Public Relations              
+Shelley              Higgins                             110 Accounting                    
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_ID DEPARTMENT_NAME               
+-------------------- ------------------------- ------------- ------------------------------
+William              Gietz                               110 Accounting                    
+Tech                 Global                              200 Operations                    
+Moe                  SquishyHishy                         70 Public Relations              
+Berkay               Onca                                 70 Public Relations              
+Omar                 YahYah                              210 IT Support                    
+                                                         270 Payroll                       
+                                                         180 Construction                  
+                                                         240 Government Sales              
+                                                         250 Retail Sales                  
+                                                         190 Contracting                   
+                                                         260 Recruiting                    
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_ID DEPARTMENT_NAME               
+-------------------- ------------------------- ------------- ------------------------------
+                                                         140 Control And Credit            
+                                                         220 NOC                           
+                                                         120 Treasury                      
+                                                         170 Manufacturing                 
+                                                         130 Corporate Tax                 
+                                                         230 IT Helpdesk                   
+                                                         150 Shareholder Services          
+                                                         160 Benefits                      
+
+129 rows selected. 
+
+
+EMPLOYEE_ID Name                                           JOB_TITLE                          
+----------- ---------------------------------------------- -----------------------------------
+        200 Jennifer Whalen                                Administration Assistant           
+        108 Nancy Greenberg                                Finance Manager                    
+        109 Daniel Faviet                                  Accountant                         
+        110 John Chen                                      Accountant                         
+        111 Ismael Sciarra                                 Accountant                         
+        112 Jose Manuel Urman                              Accountant                         
+        113 Luis Popp                                      Accountant                         
+        205 Shelley Higgins                                Accounting manager                 
+        206 William Gietz                                  Public Accountant                  
+        147 Alberto Errazuriz                              Sales Manager                      
+        148 Gerald Cambrault                               Sales Manager                      
+
+EMPLOYEE_ID Name                                           JOB_TITLE                          
+----------- ---------------------------------------------- -----------------------------------
+        149 Eleni Zlotkey                                  Sales Manager                      
+        150 Peter Tucker                                   Sales Representative               
+        151 David Bernstein                                Sales Representative               
+        152 Peter Hall                                     Sales Representative               
+        153 Christopher Olsen                              Sales Representative               
+        154 Nanette Cambrault                              Sales Representative               
+        155 Oliver Tuvault                                 Sales Representative               
+        156 Janette Kin                                    Sales Representative               
+        157 Patrick Sully                                  Sales Representative               
+        158 Allan McEwen                                   Sales Representative               
+        159 Lindsey Smith                                  Sales Representative               
+
+EMPLOYEE_ID Name                                           JOB_TITLE                          
+----------- ---------------------------------------------- -----------------------------------
+        160 Louise Doran                                   Sales Representative               
+        161 Sarath Sewall                                  Sales Representative               
+        162 Clara Vishney                                  Sales Representative               
+        163 Danielle Greene                                Sales Representative               
+        164 Mattea Marvins                                 Sales Representative               
+        165 David Lee                                      Sales Representative               
+        166 Sundar Ande                                    Sales Representative               
+        167 Amit Banda                                     Sales Representative               
+        168 Lisa Ozer                                      Sales Representative               
+        169 Harrison Bloom                                 Sales Representative               
+        170 Tayler Fox                                     Sales Representative               
+
+EMPLOYEE_ID Name                                           JOB_TITLE                          
+----------- ---------------------------------------------- -----------------------------------
+        171 William Smith                                  Sales Representative               
+        172 Elizabeth Bates                                Sales Representative               
+        173 Sundita Kumar                                  Sales Representative               
+        174 Ellen Abel                                     Sales Representative               
+        175 Alyssa Hutton                                  Sales Representative               
+        176 Jonathon Taylor                                Sales Representative               
+        177 Jack Livingston                                Sales Representative               
+        178 Kimberely Grant                                Sales Representative               
+        179 Charles Johnson                                Sales Representative               
+        114 Den Raphaely                                   Purchasing Manager                 
+        115 Alexander Khoo                                 Purchasing Clerk                   
+
+EMPLOYEE_ID Name                                           JOB_TITLE                          
+----------- ---------------------------------------------- -----------------------------------
+        116 Shelli Baida                                   Purchasing Clerk                   
+        117 Sigal Tobias                                   Purchasing Clerk                   
+        118 Guy Himuro                                     Purchasing Clerk                   
+        119 Karen Colmenares                               Purchasing Clerk                   
+        120 Matthew Weiss                                  Stock Manager                      
+        121 Adam Fripp                                     Stock Manager                      
+        122 Payam Kaufling                                 Stock Manager                      
+        123 Shanta Vollman                                 Stock Manager                      
+        124 Kevin Mourgos                                  Stock Manager                      
+        125 Julia Nayer                                    Stock Clerk                        
+        126 Irene Mikkilineni                              Stock Clerk                        
+
+EMPLOYEE_ID Name                                           JOB_TITLE                          
+----------- ---------------------------------------------- -----------------------------------
+        127 James Landry                                   Stock Clerk                        
+        128 Steven Markle                                  Stock Clerk                        
+        129 Laura Bissot                                   Stock Clerk                        
+        130 Mozhe Atkinson                                 Stock Clerk                        
+        131 James Marlow                                   Stock Clerk                        
+        132 TJ Olson                                       Stock Clerk                        
+        133 Jason Mallin                                   Stock Clerk                        
+        134 Michael Rogers                                 Stock Clerk                        
+        135 Ki Gee                                         Stock Clerk                        
+        136 Hazel Philtanker                               Stock Clerk                        
+        137 Renske Ladwig                                  Stock Clerk                        
+
+EMPLOYEE_ID Name                                           JOB_TITLE                          
+----------- ---------------------------------------------- -----------------------------------
+        138 Stephen Stiles                                 Stock Clerk                        
+        139 John Seo                                       Stock Clerk                        
+        140 Joshua Patel                                   Stock Clerk                        
+        141 Trenna Rajs                                    Stock Clerk                        
+        142 Curtis Davies                                  Stock Clerk                        
+        143 Randall Matos                                  Stock Clerk                        
+        144 Peter Vargas                                   Stock Clerk                        
+        180 Winston Taylor                                 Shipping clerk                     
+        181 Jean Fleaur                                    Shipping clerk                     
+        182 Martha Sullivan                                Shipping clerk                     
+        183 Girard Geoni                                   Shipping clerk                     
+
+EMPLOYEE_ID Name                                           JOB_TITLE                          
+----------- ---------------------------------------------- -----------------------------------
+        184 Nandita Sarchand                               Shipping clerk                     
+        185 Alexis Bull                                    Shipping clerk                     
+        186 Julia Dellinger                                Shipping clerk                     
+        187 Anthony Cabrio                                 Shipping clerk                     
+        188 Kelly Chung                                    Shipping clerk                     
+        189 Jennifer Dilly                                 Shipping clerk                     
+        190 Timothy Gates                                  Shipping clerk                     
+        191 Randall Perkins                                Shipping clerk                     
+        192 Sarah Bell                                     Shipping clerk                     
+        193 Britney Everett                                Shipping clerk                     
+        194 Samuel McCain                                  Shipping clerk                     
+
+EMPLOYEE_ID Name                                           JOB_TITLE                          
+----------- ---------------------------------------------- -----------------------------------
+        195 Vance Jones                                    Shipping clerk                     
+        196 Zack Walsh                                     Shipping clerk                     
+        197 Kevin Feeney                                   Shipping clerk                     
+        198 Donald OConnell                                Shipping clerk                     
+        199 Douglas Grant                                  Shipping clerk                     
+        103 Alexander Hunold                               Programmer                         
+        104 Bruce Ernst                                    Programmer                         
+        105 David Austin                                   Programmer                         
+        106 Valli Pataballa                                Programmer                         
+        107 Diana Lorentz                                  Programmer                         
+        202 Pat Fay                                        Marketing Representative           
+
+EMPLOYEE_ID Name                                           JOB_TITLE                          
+----------- ---------------------------------------------- -----------------------------------
+        203 Susan Mavris                                   Human Resources Representative     
+        204 Hermann Baer                                   Public Relations Representative    
+
+101 rows selected. 
+
+
+EMPLOYEE_ID Name                                           JOB_TITLE                          
+----------- ---------------------------------------------- -----------------------------------
+        100 Steven Kin                                     President                          
+        101 Neena Kochhar                                  Administration Vice President      
+        102 Lex De Haan                                    Administration Vice President      
+        108 Nancy Greenberg                                Finance Manager                    
+        205 Shelley Higgins                                Accounting manager                 
+        145 John Russell                                   Sales Manager                      
+        146 Karen Partners                                 Sales Manager                      
+        147 Alberto Errazuriz                              Sales Manager                      
+        168 Lisa Ozer                                      Sales Representative               
+        501 Berkoy Oncay                                   Programmer                         
+         98 Moe Bayram                                     Programmer                         
+
+EMPLOYEE_ID Name                                           JOB_TITLE                          
+----------- ---------------------------------------------- -----------------------------------
+        211 SquishMe HishMeh                               Programmer                         
+        208 Moe SquishyHishy                               Programmer                         
+        209 Berkay Onca                                    Programmer                         
+        210 Omar YahYah                                    Programmer                         
+        305 Hareesh Parameswaran                           Marketing Manager                  
+        201 Michael Hartstein                              Marketing Manager                  
+        207 Tech Global                                    Marketing Manager                  
+
+18 rows selected. 
+
+
+EMPLOYEE_ID Name                                           JOB_TITLE                          
+----------- ---------------------------------------------- -----------------------------------
+        208 Moe SquishyHishy                               Programmer                         
+        210 Omar YahYah                                    Programmer                         
+
+
+DEPARTMENT_ID Total Salary
+------------- ------------
+          210       642000
+           50       156100
+          200       175145
+          110        20300
+           70       819000
+           90        58000
+           30        24900
+           20        19000
+           60        28800
+          100        51600
+           80       311500
+
+11 rows selected. 
+
+
+FIRST_NAME           LAST_NAME                     SALARY
+-------------------- ------------------------- ----------
+James                Landry                          2200
+Steven               Markle                          2100
+TJ                   Olson                           2100
+Ki                   Gee                             2400
+Hazel                Philtanker                      2200
+
+
+Employee             Manager             
+-------------------- --------------------
+Lisa                 Gerald              
+Harrison             Gerald              
+Tayler               Gerald              
+William              Gerald              
+Elizabeth            Gerald              
+Sundita              Gerald              
+Alexander            Lex                 
+Clara                Alberto             
+Danielle             Alberto             
+Mattea               Alberto             
+David                Alberto             
+
+Employee             Manager             
+-------------------- --------------------
+Sundar               Alberto             
+Amit                 Alberto             
+Laura                Adam                
+Mozhe                Adam                
+James                Adam                
+TJ                   Adam                
+Nandita              Adam                
+Alexis               Adam                
+Julia                Adam                
+Anthony              Adam                
+Daniel               Nancy               
+
+Employee             Manager             
+-------------------- --------------------
+John                 Nancy               
+Ismael               Nancy               
+Jose Manuel          Nancy               
+Luis                 Nancy               
+Pat                  Michael             
+William              Shelley             
+Bruce                Alexander           
+David                Alexander           
+Valli                Alexander           
+Diana                Alexander           
+Jason                Payam               
+
+Employee             Manager             
+-------------------- --------------------
+Michael              Payam               
+Ki                   Payam               
+Hazel                Payam               
+Kelly                Payam               
+Jennifer             Payam               
+Timothy              Payam               
+Randall              Payam               
+Neena                Steven              
+Lex                  Steven              
+Den                  Steven              
+Matthew              Steven              
+
+Employee             Manager             
+-------------------- --------------------
+Adam                 Steven              
+Payam                Steven              
+Shanta               Steven              
+Kevin                Steven              
+John                 Steven              
+Karen                Steven              
+Alberto              Steven              
+Gerald               Steven              
+Eleni                Steven              
+Michael              Steven              
+Steven               Neena               
+
+Employee             Manager             
+-------------------- --------------------
+Nancy                Neena               
+Jennifer             Neena               
+Susan                Neena               
+Hermann              Neena               
+Shelley              Neena               
+Tech                 Susan               
+Trenna               Kevin               
+Curtis               Kevin               
+Randall              Kevin               
+Peter                Kevin               
+Zack                 Kevin               
+
+Employee             Manager             
+-------------------- --------------------
+Kevin                Kevin               
+Donald               Kevin               
+Douglas              Kevin               
+Janette              Karen               
+Patrick              Karen               
+Allan                Karen               
+Lindsey              Karen               
+Louise               Karen               
+Sarath               Karen               
+Alexander            Den                 
+Shelli               Den                 
+
+Employee             Manager             
+-------------------- --------------------
+Sigal                Den                 
+Guy                  Den                 
+Karen                Den                 
+Peter                John                
+David                John                
+Peter                John                
+Christopher          John                
+Nanette              John                
+Oliver               John                
+Renske               Shanta              
+Stephen              Shanta              
+
+Employee             Manager             
+-------------------- --------------------
+John                 Shanta              
+Joshua               Shanta              
+Sarah                Shanta              
+Britney              Shanta              
+Samuel               Shanta              
+Vance                Shanta              
+Julia                Matthew             
+Irene                Matthew             
+James                Matthew             
+Steven               Matthew             
+Winston              Matthew             
+
+Employee             Manager             
+-------------------- --------------------
+Jean                 Matthew             
+Martha               Matthew             
+Girard               Matthew             
+Ellen                Eleni               
+Alyssa               Eleni               
+Jonathon             Eleni               
+Jack                 Eleni               
+Kimberely            Eleni               
+Charles              Eleni               
+Hareesh                                  
+Berkoy                                   
+
+Employee             Manager             
+-------------------- --------------------
+Moe                                      
+SquishMe                                 
+Moe                                      
+Berkay                                   
+Omar                                     
+
+115 rows selected. 
+
+
+DEPARTMENT_NAME                CITY                           STATE_PROVINCE           
+------------------------------ ------------------------------ -------------------------
+IT                             Southlake                      Texas                    
+Shipping                       South San Francisco            California               
+Operations                     South Brunswick                New Jersey               
+Administration                 Seattle                        Washington               
+Executive                      Seattle                        Washington               
+Finance                        Seattle                        Washington               
+Accounting                     Seattle                        Washington               
+Treasury                       Seattle                        Washington               
+Corporate Tax                  Seattle                        Washington               
+Control And Credit             Seattle                        Washington               
+Shareholder Services           Seattle                        Washington               
+
+DEPARTMENT_NAME                CITY                           STATE_PROVINCE           
+------------------------------ ------------------------------ -------------------------
+Benefits                       Seattle                        Washington               
+Manufacturing                  Seattle                        Washington               
+Construction                   Seattle                        Washington               
+Contracting                    Seattle                        Washington               
+IT Support                     Seattle                        Washington               
+NOC                            Seattle                        Washington               
+IT Helpdesk                    Seattle                        Washington               
+Government Sales               Seattle                        Washington               
+Retail Sales                   Seattle                        Washington               
+Recruiting                     Seattle                        Washington               
+Payroll                        Seattle                        Washington               
+
+DEPARTMENT_NAME                CITY                           STATE_PROVINCE           
+------------------------------ ------------------------------ -------------------------
+Marketing                      Toronto                        Ontario                  
+Human Resources                London                                                  
+Sales                          Oxford                         Oxford                   
+Purchasing                     Stretford                      Manchester               
+Public Relations               Munich                         Bavaria                  
+
+27 rows selected. 
+
+
+Name                                           DEPARTMENT_ID     SALARY
+---------------------------------------------- ------------- ----------
+Hareesh Parameswaran                                     210      51000
+Berkoy Oncay                                             210      51000
+Omar YahYah                                              210     540000
+
+no rows selected
+
+Employee             Manager             
+-------------------- --------------------
+Lisa                 Gerald              
+Harrison             Gerald              
+Tayler               Gerald              
+William              Gerald              
+Elizabeth            Gerald              
+Sundita              Gerald              
+Alexander            Lex                 
+Clara                Alberto             
+Danielle             Alberto             
+Mattea               Alberto             
+David                Alberto             
+
+Employee             Manager             
+-------------------- --------------------
+Sundar               Alberto             
+Amit                 Alberto             
+Laura                Adam                
+Mozhe                Adam                
+James                Adam                
+TJ                   Adam                
+Nandita              Adam                
+Alexis               Adam                
+Julia                Adam                
+Anthony              Adam                
+Daniel               Nancy               
+
+Employee             Manager             
+-------------------- --------------------
+John                 Nancy               
+Ismael               Nancy               
+Jose Manuel          Nancy               
+Luis                 Nancy               
+Pat                  Michael             
+William              Shelley             
+Bruce                Alexander           
+David                Alexander           
+Valli                Alexander           
+Diana                Alexander           
+Jason                Payam               
+
+Employee             Manager             
+-------------------- --------------------
+Michael              Payam               
+Ki                   Payam               
+Hazel                Payam               
+Kelly                Payam               
+Jennifer             Payam               
+Timothy              Payam               
+Randall              Payam               
+Neena                Steven              
+Lex                  Steven              
+Den                  Steven              
+Matthew              Steven              
+
+Employee             Manager             
+-------------------- --------------------
+Adam                 Steven              
+Payam                Steven              
+Shanta               Steven              
+Kevin                Steven              
+John                 Steven              
+Karen                Steven              
+Alberto              Steven              
+Gerald               Steven              
+Eleni                Steven              
+Michael              Steven              
+Steven               Neena               
+
+Employee             Manager             
+-------------------- --------------------
+Nancy                Neena               
+Jennifer             Neena               
+Susan                Neena               
+Hermann              Neena               
+Shelley              Neena               
+Tech                 Susan               
+Trenna               Kevin               
+Curtis               Kevin               
+Randall              Kevin               
+Peter                Kevin               
+Zack                 Kevin               
+
+Employee             Manager             
+-------------------- --------------------
+Kevin                Kevin               
+Donald               Kevin               
+Douglas              Kevin               
+Janette              Karen               
+Patrick              Karen               
+Allan                Karen               
+Lindsey              Karen               
+Louise               Karen               
+Sarath               Karen               
+Alexander            Den                 
+Shelli               Den                 
+
+Employee             Manager             
+-------------------- --------------------
+Sigal                Den                 
+Guy                  Den                 
+Karen                Den                 
+Peter                John                
+David                John                
+Peter                John                
+Christopher          John                
+Nanette              John                
+Oliver               John                
+Renske               Shanta              
+Stephen              Shanta              
+
+Employee             Manager             
+-------------------- --------------------
+John                 Shanta              
+Joshua               Shanta              
+Sarah                Shanta              
+Britney              Shanta              
+Samuel               Shanta              
+Vance                Shanta              
+Julia                Matthew             
+Irene                Matthew             
+James                Matthew             
+Steven               Matthew             
+Winston              Matthew             
+
+Employee             Manager             
+-------------------- --------------------
+Jean                 Matthew             
+Martha               Matthew             
+Girard               Matthew             
+Ellen                Eleni               
+Alyssa               Eleni               
+Jonathon             Eleni               
+Jack                 Eleni               
+Kimberely            Eleni               
+Charles              Eleni               
+Hareesh                                  
+Berkoy                                   
+
+Employee             Manager             
+-------------------- --------------------
+Moe                                      
+SquishMe                                 
+Moe                                      
+Berkay                                   
+Omar                                     
+
+115 rows selected. 
+
+
+Name                                               SALARY
+---------------------------------------------- ----------
+Hareesh Parameswaran                                51000
+Berkoy Oncay                                        51000
+Moe Bayram                                         125145
+SquishMe HishMeh                                   132000
+Steven Kin                                          24000
+Neena Kochhar                                       17000
+Lex De Haan                                         17000
+Nancy Greenberg                                     12000
+Den Raphaely                                        11000
+John Russell                                        14000
+Karen Partners                                      13500
+
+Name                                               SALARY
+---------------------------------------------- ----------
+Alberto Errazuriz                                   12000
+Gerald Cambrault                                    11000
+Eleni Zlotkey                                       10500
+Peter Tucker                                        10000
+Janette Kin                                         10000
+Clara Vishney                                       10500
+Lisa Ozer                                           11500
+Harrison Bloom                                      10000
+Tayler Fox                                           9600
+Ellen Abel                                          11000
+Michael Hartstein                                   13000
+
+Name                                               SALARY
+---------------------------------------------- ----------
+Hermann Baer                                        10000
+Shelley Higgins                                     12000
+Tech Global                                         50000
+Moe SquishyHishy                                   545000
+Berkay Onca                                        132000
+Omar YahYah                                        540000
+
+28 rows selected. 
+
+
+Name                                               SALARY DEPARTMENT_ID JOB_ID    
+---------------------------------------------- ---------- ------------- ----------
+Peter Tucker                                        10000            80 SA_REP    
+David Bernstein                                      9500            80 SA_REP    
+Peter Hall                                           9000            80 SA_REP    
+Christopher Olsen                                    8000            80 SA_REP    
+Nanette Cambrault                                    7500            80 SA_REP    
+Oliver Tuvault                                       7000            80 SA_REP    
+Janette Kin                                         10000            80 SA_REP    
+Patrick Sully                                        9500            80 SA_REP    
+Allan McEwen                                         9000            80 SA_REP    
+Lindsey Smith                                        8000            80 SA_REP    
+Louise Doran                                         7500            80 SA_REP    
+
+Name                                               SALARY DEPARTMENT_ID JOB_ID    
+---------------------------------------------- ---------- ------------- ----------
+Sarath Sewall                                        7000            80 SA_REP    
+Clara Vishney                                       10500            80 SA_REP    
+Danielle Greene                                      9500            80 SA_REP    
+Mattea Marvins                                       7200            80 SA_REP    
+David Lee                                            6800            80 SA_REP    
+Sundar Ande                                          6400            80 SA_REP    
+Amit Banda                                           6200            80 SA_REP    
+Lisa Ozer                                           11500            80 SA_REP    
+Harrison Bloom                                      10000            80 SA_REP    
+Tayler Fox                                           9600            80 SA_REP    
+William Smith                                        7400            80 SA_REP    
+
+Name                                               SALARY DEPARTMENT_ID JOB_ID    
+---------------------------------------------- ---------- ------------- ----------
+Elizabeth Bates                                      7300            80 SA_REP    
+Sundita Kumar                                        6100            80 SA_REP    
+Ellen Abel                                          11000            80 SA_REP    
+Alyssa Hutton                                        8800            80 SA_REP    
+Jonathon Taylor                                      8600            80 SA_REP    
+Jack Livingston                                      8400            80 SA_REP    
+Kimberely Grant                                      7000            80 SA_REP    
+Charles Johnson                                      6200            80 SA_REP    
+
+30 rows selected. 
+
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_ID
+-------------------- ------------------------- -------------
+Ellen                Abel                                 80
+Sundar               Ande                                 80
+Amit                 Banda                                80
+Elizabeth            Bates                                80
+David                Bernstein                            80
+Harrison             Bloom                                80
+Gerald               Cambrault                            80
+Nanette              Cambrault                            80
+Louise               Doran                                80
+Alberto              Errazuriz                            80
+Tayler               Fox                                  80
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_ID
+-------------------- ------------------------- -------------
+Kimberely            Grant                                80
+Danielle             Greene                               80
+Peter                Hall                                 80
+Alyssa               Hutton                               80
+Charles              Johnson                              80
+Janette              Kin                                  80
+Sundita              Kumar                                80
+David                Lee                                  80
+Jack                 Livingston                           80
+Mattea               Marvins                              80
+Allan                McEwen                               80
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_ID
+-------------------- ------------------------- -------------
+Christopher          Olsen                                80
+Lisa                 Ozer                                 80
+Karen                Partners                             80
+John                 Russell                              80
+Sarath               Sewall                               80
+Lindsey              Smith                                80
+William              Smith                                80
+Patrick              Sully                                80
+Jonathon             Taylor                               80
+Peter                Tucker                               80
+Oliver               Tuvault                              80
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_ID
+-------------------- ------------------------- -------------
+Clara                Vishney                              80
+Eleni                Zlotkey                              80
+Mozhe                Atkinson                             50
+Sarah                Bell                                 50
+Laura                Bissot                               50
+Alexis               Bull                                 50
+Anthony              Cabrio                               50
+Kelly                Chung                                50
+Curtis               Davies                               50
+Julia                Dellinger                            50
+Jennifer             Dilly                                50
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_ID
+-------------------- ------------------------- -------------
+Britney              Everett                              50
+Kevin                Feeney                               50
+Jean                 Fleaur                               50
+Adam                 Fripp                                50
+Timothy              Gates                                50
+Ki                   Gee                                  50
+Girard               Geoni                                50
+Douglas              Grant                                50
+Vance                Jones                                50
+Payam                Kaufling                             50
+Renske               Ladwig                               50
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_ID
+-------------------- ------------------------- -------------
+James                Landry                               50
+Jason                Mallin                               50
+Steven               Markle                               50
+James                Marlow                               50
+Randall              Matos                                50
+Samuel               McCain                               50
+Irene                Mikkilineni                          50
+Kevin                Mourgos                              50
+Julia                Nayer                                50
+Donald               OConnell                             50
+TJ                   Olson                                50
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_ID
+-------------------- ------------------------- -------------
+Joshua               Patel                                50
+Randall              Perkins                              50
+Hazel                Philtanker                           50
+Trenna               Rajs                                 50
+Michael              Rogers                               50
+Nandita              Sarchand                             50
+John                 Seo                                  50
+Stephen              Stiles                               50
+Martha               Sullivan                             50
+Winston              Taylor                               50
+Peter                Vargas                               50
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_ID
+-------------------- ------------------------- -------------
+Shanta               Vollman                              50
+Zack                 Walsh                                50
+Matthew              Weiss                                50
+
+80 rows selected. 
+
+
+Department                     Name                                          
+------------------------------ ----------------------------------------------
+Executive                      Steven Kin                                    
+Executive                      Neena Kochhar                                 
+Executive                      Lex De Haan                                   
+IT                             Alexander Hunold                              
+Finance                        Nancy Greenberg                               
+Purchasing                     Den Raphaely                                  
+Shipping                       Matthew Weiss                                 
+Shipping                       Adam Fripp                                    
+Shipping                       Payam Kaufling                                
+Shipping                       Shanta Vollman                                
+Shipping                       Kevin Mourgos                                 
+
+Department                     Name                                          
+------------------------------ ----------------------------------------------
+Sales                          John Russell                                  
+Sales                          Karen Partners                                
+Sales                          Alberto Errazuriz                             
+Sales                          Gerald Cambrault                              
+Sales                          Eleni Zlotkey                                 
+Marketing                      Michael Hartstein                             
+Human Resources                Susan Mavris                                  
+Accounting                     Shelley Higgins                               
+
+19 rows selected. 
+
+
+EMPLOYEE_ID HIRE_DAT END_DATE JOB_ID     DEPARTMENT_ID
+----------- -------- -------- ---------- -------------
+         98 17/12/24          IT_PROG              200
+        100 17/06/87          AD_PRES               90
+        101 21/09/89 27/10/93 AD_VP                 90
+        101 21/09/89 15/03/97 AD_VP                 90
+        102 13/01/92 24/07/98 AD_VP                 90
+        145 01/10/96          SA_MAN                80
+        146 05/01/97          SA_MAN                80
+        201 17/02/96 19/12/99 MK_MAN                20
+        207 03/12/23          MK_MAN               200
+        208 25/07/25          IT_PROG               70
+        209 21/06/10          IT_PROG               70
+
+EMPLOYEE_ID HIRE_DAT END_DATE JOB_ID     DEPARTMENT_ID
+----------- -------- -------- ---------- -------------
+        210 25/07/25          IT_PROG              210
+        211 25/11/98          IT_PROG               70
+        305 12/12/23          MK_MAN               210
+        501 12/12/23          IT_PROG              210
+
+15 rows selected. 
+
+
+Name                                               SALARY DEPARTMENT_ID
+---------------------------------------------- ---------- -------------
+Hareesh Parameswaran                                51000           210
+Berkoy Oncay                                        51000           210
+Neena Kochhar                                       17000            90
+Lex De Haan                                         17000            90
+Bruce Ernst                                          6000            60
+Diana Lorentz                                        4200            60
+Luis Popp                                            6900           100
+Karen Colmenares                                     2500            30
+Shanta Vollman                                       6500            50
+Steven Markle                                        2100            50
+James Marlow                                         2500            50
+
+Name                                               SALARY DEPARTMENT_ID
+---------------------------------------------- ---------- -------------
+TJ Olson                                             2100            50
+Joshua Patel                                         2500            50
+Peter Vargas                                         2500            50
+Peter Tucker                                        10000            80
+Janette Kin                                         10000            80
+Harrison Bloom                                      10000            80
+Sundita Kumar                                        6100            80
+Martha Sullivan                                      2500            50
+Nandita Sarchand                                     4200            50
+Randall Perkins                                      2500            50
+Jennifer Whalen                                      4400            10
+
+Name                                               SALARY DEPARTMENT_ID
+---------------------------------------------- ---------- -------------
+Pat Fay                                              6000            20
+Susan Mavris                                         6500            40
+Hermann Baer                                        10000            70
+William Gietz                                        8300           110
+Tech Global                                         50000           200
+
+27 rows selected. 
+
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                 EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY COMMISSION_PCT MANAGER_ID DEPARTMENT_ID
+----------- -------------------- ------------------------- ------------------------- -------------------- -------- ---------- ---------- -------------- ---------- -------------
+        187 Anthony              Cabrio                    ACABRIO                   650.509.4876         07/02/99 SH_CLERK         3000                       121            50
+
+
+Name                                           EMPLOYEE_ID JOB_TITLE                          
+---------------------------------------------- ----------- -----------------------------------
+Michael Hartstein                                      201 Marketing Manager                  
+Pat Fay                                                202 Marketing Representative           
+
+
+Name                                           DEPARTMENT_NAME               
+---------------------------------------------- ------------------------------
+Jennifer Whalen                                Administration                
+Michael Hartstein                              Marketing                     
+Pat Fay                                        Marketing                     
+Den Raphaely                                   Purchasing                    
+Alexander Khoo                                 Purchasing                    
+Susan Mavris                                   Human Resources               
+Matthew Weiss                                  Shipping                      
+Adam Fripp                                     Shipping                      
+Payam Kaufling                                 Shipping                      
+Shanta Vollman                                 Shipping                      
+Kevin Mourgos                                  Shipping                      
+
+Name                                           DEPARTMENT_NAME               
+---------------------------------------------- ------------------------------
+Julia Nayer                                    Shipping                      
+Laura Bissot                                   Shipping                      
+Jason Mallin                                   Shipping                      
+Renske Ladwig                                  Shipping                      
+Stephen Stiles                                 Shipping                      
+Trenna Rajs                                    Shipping                      
+Curtis Davies                                  Shipping                      
+Winston Taylor                                 Shipping                      
+Jean Fleaur                                    Shipping                      
+Nandita Sarchand                               Shipping                      
+Alexis Bull                                    Shipping                      
+
+Name                                           DEPARTMENT_NAME               
+---------------------------------------------- ------------------------------
+Julia Dellinger                                Shipping                      
+Kelly Chung                                    Shipping                      
+Jennifer Dilly                                 Shipping                      
+Sarah Bell                                     Shipping                      
+Britney Everett                                Shipping                      
+Samuel McCain                                  Shipping                      
+Zack Walsh                                     Shipping                      
+Alexander Hunold                               IT                            
+Bruce Ernst                                    IT                            
+David Austin                                   IT                            
+Valli Pataballa                                IT                            
+
+Name                                           DEPARTMENT_NAME               
+---------------------------------------------- ------------------------------
+Diana Lorentz                                  IT                            
+SquishMe HishMeh                               Public Relations              
+Hermann Baer                                   Public Relations              
+Moe SquishyHishy                               Public Relations              
+Berkay Onca                                    Public Relations              
+John Russell                                   Sales                         
+Karen Partners                                 Sales                         
+Alberto Errazuriz                              Sales                         
+Gerald Cambrault                               Sales                         
+Eleni Zlotkey                                  Sales                         
+Peter Tucker                                   Sales                         
+
+Name                                           DEPARTMENT_NAME               
+---------------------------------------------- ------------------------------
+David Bernstein                                Sales                         
+Peter Hall                                     Sales                         
+Christopher Olsen                              Sales                         
+Nanette Cambrault                              Sales                         
+Oliver Tuvault                                 Sales                         
+Janette Kin                                    Sales                         
+Patrick Sully                                  Sales                         
+Allan McEwen                                   Sales                         
+Lindsey Smith                                  Sales                         
+Louise Doran                                   Sales                         
+Sarath Sewall                                  Sales                         
+
+Name                                           DEPARTMENT_NAME               
+---------------------------------------------- ------------------------------
+Clara Vishney                                  Sales                         
+Danielle Greene                                Sales                         
+Mattea Marvins                                 Sales                         
+David Lee                                      Sales                         
+Sundar Ande                                    Sales                         
+Amit Banda                                     Sales                         
+Lisa Ozer                                      Sales                         
+Harrison Bloom                                 Sales                         
+Tayler Fox                                     Sales                         
+William Smith                                  Sales                         
+Elizabeth Bates                                Sales                         
+
+Name                                           DEPARTMENT_NAME               
+---------------------------------------------- ------------------------------
+Sundita Kumar                                  Sales                         
+Ellen Abel                                     Sales                         
+Alyssa Hutton                                  Sales                         
+Jonathon Taylor                                Sales                         
+Jack Livingston                                Sales                         
+Kimberely Grant                                Sales                         
+Charles Johnson                                Sales                         
+Steven Kin                                     Executive                     
+Neena Kochhar                                  Executive                     
+Lex De Haan                                    Executive                     
+Nancy Greenberg                                Finance                       
+
+Name                                           DEPARTMENT_NAME               
+---------------------------------------------- ------------------------------
+Daniel Faviet                                  Finance                       
+John Chen                                      Finance                       
+Ismael Sciarra                                 Finance                       
+Jose Manuel Urman                              Finance                       
+Luis Popp                                      Finance                       
+Shelley Higgins                                Accounting                    
+William Gietz                                  Accounting                    
+Moe Bayram                                     Operations                    
+Tech Global                                    Operations                    
+Hareesh Parameswaran                           IT Support                    
+Berkoy Oncay                                   IT Support                    
+
+Name                                           DEPARTMENT_NAME               
+---------------------------------------------- ------------------------------
+Omar YahYah                                    IT Support                    
+
+89 rows selected. 
+
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                 EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY COMMISSION_PCT MANAGER_ID DEPARTMENT_ID
+----------- -------------------- ------------------------- ------------------------- -------------------- -------- ---------- ---------- -------------- ---------- -------------
+        305 Hareesh              Parameswaran              nnk                       650.506.1234         12/12/23 MK_MAN          51000                                     210
+        501 Berkoy               Oncay                     boncoy                    123.456.7890         12/12/23 IT_PROG         51000                                     210
+         98 Moe                  Bayram                    BBAYRAM                   708.543.5435         17/12/24 IT_PROG        125145                                     200
+        211 SquishMe             HishMeh                   HISHME                    708.594.5941         25/11/98 IT_PROG        132000             .1                       70
+        100 Steven               Kin                       SKING                     515.123.4567         17/06/87 AD_PRES         24000                       101            90
+        101 Neena                Kochhar                   NKOCHHAR                  515.123.4568         21/09/89 AD_VP           17000                       100            90
+        102 Lex                  De Haan                   LDEHAAN                   515.123.4569         13/01/92 AD_VP           17000                       100            90
+        207 Tech                 Global                    TGLOBAL                   211.222.2244         03/12/23 MK_MAN          50000                       203           200
+        208 Moe                  SquishyHishy              HISH                      708.741.0001         25/07/25 IT_PROG        545000                                      70
+        209 Berkay               Onca                      BONCA                     312.111.2222         21/06/10 IT_PROG        132000                                      70
+        210 Omar                 YahYah                    YAHHHH                    708.858.2172         25/07/25 IT_PROG        540000                                     210
+
+11 rows selected. 
+
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                 EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY COMMISSION_PCT MANAGER_ID DEPARTMENT_ID
+----------- -------------------- ------------------------- ------------------------- -------------------- -------- ---------- ---------- -------------- ---------- -------------
+        305 Hareesh              Parameswaran              nnk                       650.506.1234         12/12/23 MK_MAN          51000                                     210
+        501 Berkoy               Oncay                     boncoy                    123.456.7890         12/12/23 IT_PROG         51000                                     210
+         98 Moe                  Bayram                    BBAYRAM                   708.543.5435         17/12/24 IT_PROG        125145                                     200
+        211 SquishMe             HishMeh                   HISHME                    708.594.5941         25/11/98 IT_PROG        132000             .1                       70
+        208 Moe                  SquishyHishy              HISH                      708.741.0001         25/07/25 IT_PROG        545000                                      70
+        209 Berkay               Onca                      BONCA                     312.111.2222         21/06/10 IT_PROG        132000                                      70
+        210 Omar                 YahYah                    YAHHHH                    708.858.2172         25/07/25 IT_PROG        540000                                     210
+
+7 rows selected. 
+
+
+DEPARTMENT_NAME                  COUNT(*)
+------------------------------ ----------
+Sales                                  35
+IT Support                              3
+Marketing                               2
+Administration                          1
+Purchasing                              6
+Shipping                               45
+IT                                      5
+Executive                               3
+Finance                                 6
+Public Relations                        4
+Human Resources                         1
+
+DEPARTMENT_NAME                  COUNT(*)
+------------------------------ ----------
+Accounting                              2
+Operations                              2
+
+13 rows selected. 
+
+
+LAST_NAME                 CITY                          
+------------------------- ------------------------------
+Hunold                    Southlake                     
+Ernst                     Southlake                     
+Austin                    Southlake                     
+Pataballa                 Southlake                     
+Lorentz                   Southlake                     
+Weiss                     South San Francisco           
+Fripp                     South San Francisco           
+Kaufling                  South San Francisco           
+Vollman                   South San Francisco           
+Mourgos                   South San Francisco           
+Nayer                     South San Francisco           
+
+LAST_NAME                 CITY                          
+------------------------- ------------------------------
+Mikkilineni               South San Francisco           
+Landry                    South San Francisco           
+Markle                    South San Francisco           
+Bissot                    South San Francisco           
+Atkinson                  South San Francisco           
+Marlow                    South San Francisco           
+Olson                     South San Francisco           
+Mallin                    South San Francisco           
+Rogers                    South San Francisco           
+Gee                       South San Francisco           
+Philtanker                South San Francisco           
+
+LAST_NAME                 CITY                          
+------------------------- ------------------------------
+Ladwig                    South San Francisco           
+Stiles                    South San Francisco           
+Seo                       South San Francisco           
+Patel                     South San Francisco           
+Rajs                      South San Francisco           
+Davies                    South San Francisco           
+Matos                     South San Francisco           
+Vargas                    South San Francisco           
+Taylor                    South San Francisco           
+Fleaur                    South San Francisco           
+Sullivan                  South San Francisco           
+
+LAST_NAME                 CITY                          
+------------------------- ------------------------------
+Geoni                     South San Francisco           
+Sarchand                  South San Francisco           
+Bull                      South San Francisco           
+Dellinger                 South San Francisco           
+Cabrio                    South San Francisco           
+Chung                     South San Francisco           
+Dilly                     South San Francisco           
+Gates                     South San Francisco           
+Perkins                   South San Francisco           
+Bell                      South San Francisco           
+Everett                   South San Francisco           
+
+LAST_NAME                 CITY                          
+------------------------- ------------------------------
+McCain                    South San Francisco           
+Jones                     South San Francisco           
+Walsh                     South San Francisco           
+Feeney                    South San Francisco           
+OConnell                  South San Francisco           
+Grant                     South San Francisco           
+Bayram                    South Brunswick               
+Global                    South Brunswick               
+Whalen                    Seattle                       
+Kin                       Seattle                       
+Kochhar                   Seattle                       
+
+LAST_NAME                 CITY                          
+------------------------- ------------------------------
+De Haan                   Seattle                       
+Greenberg                 Seattle                       
+Faviet                    Seattle                       
+Chen                      Seattle                       
+Sciarra                   Seattle                       
+Urman                     Seattle                       
+Popp                      Seattle                       
+Higgins                   Seattle                       
+Gietz                     Seattle                       
+Parameswaran              Seattle                       
+Oncay                     Seattle                       
+
+LAST_NAME                 CITY                          
+------------------------- ------------------------------
+YahYah                    Seattle                       
+Hartstein                 Toronto                       
+Fay                       Toronto                       
+Mavris                    London                        
+Russell                   Oxford                        
+Partners                  Oxford                        
+Errazuriz                 Oxford                        
+Cambrault                 Oxford                        
+Zlotkey                   Oxford                        
+Tucker                    Oxford                        
+Bernstein                 Oxford                        
+
+LAST_NAME                 CITY                          
+------------------------- ------------------------------
+Hall                      Oxford                        
+Olsen                     Oxford                        
+Cambrault                 Oxford                        
+Tuvault                   Oxford                        
+Kin                       Oxford                        
+Sully                     Oxford                        
+McEwen                    Oxford                        
+Smith                     Oxford                        
+Doran                     Oxford                        
+Sewall                    Oxford                        
+Vishney                   Oxford                        
+
+LAST_NAME                 CITY                          
+------------------------- ------------------------------
+Greene                    Oxford                        
+Marvins                   Oxford                        
+Lee                       Oxford                        
+Ande                      Oxford                        
+Banda                     Oxford                        
+Ozer                      Oxford                        
+Bloom                     Oxford                        
+Fox                       Oxford                        
+Smith                     Oxford                        
+Bates                     Oxford                        
+Kumar                     Oxford                        
+
+LAST_NAME                 CITY                          
+------------------------- ------------------------------
+Abel                      Oxford                        
+Hutton                    Oxford                        
+Taylor                    Oxford                        
+Livingston                Oxford                        
+Grant                     Oxford                        
+Johnson                   Oxford                        
+Raphaely                  Stretford                     
+Khoo                      Stretford                     
+Baida                     Stretford                     
+Tobias                    Stretford                     
+Himuro                    Stretford                     
+
+LAST_NAME                 CITY                          
+------------------------- ------------------------------
+Colmenares                Stretford                     
+HishMeh                   Munich                        
+Baer                      Munich                        
+SquishyHishy              Munich                        
+Onca                      Munich                        
+
+115 rows selected. 
+
+
+JOB_TITLE                           ROUND(AVG(SALARY),2)
+----------------------------------- --------------------
+Human Resources Representative                      6500
+Purchasing Manager                                 11000
+Public Accountant                                   8300
+Stock Clerk                                         2770
+President                                          24000
+Accountant                                          7920
+Sales Manager                                      12200
+Sales Representative                                8350
+Stock Manager                                       7280
+Administration Vice President                      17000
+Shipping clerk                                      3215
+
+JOB_TITLE                           ROUND(AVG(SALARY),2)
+----------------------------------- --------------------
+Public Relations Representative                    10000
+Finance Manager                                    12000
+Accounting manager                                 12000
+Programmer                                     141267.73
+Marketing Manager                                  38000
+Administration Assistant                            4400
+Purchasing Clerk                                    2780
+Marketing Representative                            6000
+
+19 rows selected. 
+
+
+Name                                           DEPARTMENT_NAME                CITY                          
+---------------------------------------------- ------------------------------ ------------------------------
+Alexander Hunold                               IT                             Southlake                     
+Bruce Ernst                                    IT                             Southlake                     
+David Austin                                   IT                             Southlake                     
+Valli Pataballa                                IT                             Southlake                     
+Diana Lorentz                                  IT                             Southlake                     
+Matthew Weiss                                  Shipping                       South San Francisco           
+Adam Fripp                                     Shipping                       South San Francisco           
+Payam Kaufling                                 Shipping                       South San Francisco           
+Shanta Vollman                                 Shipping                       South San Francisco           
+Kevin Mourgos                                  Shipping                       South San Francisco           
+Julia Nayer                                    Shipping                       South San Francisco           
+
+Name                                           DEPARTMENT_NAME                CITY                          
+---------------------------------------------- ------------------------------ ------------------------------
+Irene Mikkilineni                              Shipping                       South San Francisco           
+James Landry                                   Shipping                       South San Francisco           
+Steven Markle                                  Shipping                       South San Francisco           
+Laura Bissot                                   Shipping                       South San Francisco           
+Mozhe Atkinson                                 Shipping                       South San Francisco           
+James Marlow                                   Shipping                       South San Francisco           
+TJ Olson                                       Shipping                       South San Francisco           
+Jason Mallin                                   Shipping                       South San Francisco           
+Michael Rogers                                 Shipping                       South San Francisco           
+Ki Gee                                         Shipping                       South San Francisco           
+Hazel Philtanker                               Shipping                       South San Francisco           
+
+Name                                           DEPARTMENT_NAME                CITY                          
+---------------------------------------------- ------------------------------ ------------------------------
+Renske Ladwig                                  Shipping                       South San Francisco           
+Stephen Stiles                                 Shipping                       South San Francisco           
+John Seo                                       Shipping                       South San Francisco           
+Joshua Patel                                   Shipping                       South San Francisco           
+Trenna Rajs                                    Shipping                       South San Francisco           
+Curtis Davies                                  Shipping                       South San Francisco           
+Randall Matos                                  Shipping                       South San Francisco           
+Peter Vargas                                   Shipping                       South San Francisco           
+Winston Taylor                                 Shipping                       South San Francisco           
+Jean Fleaur                                    Shipping                       South San Francisco           
+Martha Sullivan                                Shipping                       South San Francisco           
+
+Name                                           DEPARTMENT_NAME                CITY                          
+---------------------------------------------- ------------------------------ ------------------------------
+Girard Geoni                                   Shipping                       South San Francisco           
+Nandita Sarchand                               Shipping                       South San Francisco           
+Alexis Bull                                    Shipping                       South San Francisco           
+Julia Dellinger                                Shipping                       South San Francisco           
+Anthony Cabrio                                 Shipping                       South San Francisco           
+Kelly Chung                                    Shipping                       South San Francisco           
+Jennifer Dilly                                 Shipping                       South San Francisco           
+Timothy Gates                                  Shipping                       South San Francisco           
+Randall Perkins                                Shipping                       South San Francisco           
+Sarah Bell                                     Shipping                       South San Francisco           
+Britney Everett                                Shipping                       South San Francisco           
+
+Name                                           DEPARTMENT_NAME                CITY                          
+---------------------------------------------- ------------------------------ ------------------------------
+Samuel McCain                                  Shipping                       South San Francisco           
+Vance Jones                                    Shipping                       South San Francisco           
+Zack Walsh                                     Shipping                       South San Francisco           
+Kevin Feeney                                   Shipping                       South San Francisco           
+Donald OConnell                                Shipping                       South San Francisco           
+Douglas Grant                                  Shipping                       South San Francisco           
+Moe Bayram                                     Operations                     South Brunswick               
+Tech Global                                    Operations                     South Brunswick               
+Jennifer Whalen                                Administration                 Seattle                       
+Steven Kin                                     Executive                      Seattle                       
+Neena Kochhar                                  Executive                      Seattle                       
+
+Name                                           DEPARTMENT_NAME                CITY                          
+---------------------------------------------- ------------------------------ ------------------------------
+Lex De Haan                                    Executive                      Seattle                       
+Nancy Greenberg                                Finance                        Seattle                       
+Daniel Faviet                                  Finance                        Seattle                       
+John Chen                                      Finance                        Seattle                       
+Ismael Sciarra                                 Finance                        Seattle                       
+Jose Manuel Urman                              Finance                        Seattle                       
+Luis Popp                                      Finance                        Seattle                       
+Shelley Higgins                                Accounting                     Seattle                       
+William Gietz                                  Accounting                     Seattle                       
+Hareesh Parameswaran                           IT Support                     Seattle                       
+Berkoy Oncay                                   IT Support                     Seattle                       
+
+Name                                           DEPARTMENT_NAME                CITY                          
+---------------------------------------------- ------------------------------ ------------------------------
+Omar YahYah                                    IT Support                     Seattle                       
+Michael Hartstein                              Marketing                      Toronto                       
+Pat Fay                                        Marketing                      Toronto                       
+Susan Mavris                                   Human Resources                London                        
+John Russell                                   Sales                          Oxford                        
+Karen Partners                                 Sales                          Oxford                        
+Alberto Errazuriz                              Sales                          Oxford                        
+Gerald Cambrault                               Sales                          Oxford                        
+Eleni Zlotkey                                  Sales                          Oxford                        
+Peter Tucker                                   Sales                          Oxford                        
+David Bernstein                                Sales                          Oxford                        
+
+Name                                           DEPARTMENT_NAME                CITY                          
+---------------------------------------------- ------------------------------ ------------------------------
+Peter Hall                                     Sales                          Oxford                        
+Christopher Olsen                              Sales                          Oxford                        
+Nanette Cambrault                              Sales                          Oxford                        
+Oliver Tuvault                                 Sales                          Oxford                        
+Janette Kin                                    Sales                          Oxford                        
+Patrick Sully                                  Sales                          Oxford                        
+Allan McEwen                                   Sales                          Oxford                        
+Lindsey Smith                                  Sales                          Oxford                        
+Louise Doran                                   Sales                          Oxford                        
+Sarath Sewall                                  Sales                          Oxford                        
+Clara Vishney                                  Sales                          Oxford                        
+
+Name                                           DEPARTMENT_NAME                CITY                          
+---------------------------------------------- ------------------------------ ------------------------------
+Danielle Greene                                Sales                          Oxford                        
+Mattea Marvins                                 Sales                          Oxford                        
+David Lee                                      Sales                          Oxford                        
+Sundar Ande                                    Sales                          Oxford                        
+Amit Banda                                     Sales                          Oxford                        
+Lisa Ozer                                      Sales                          Oxford                        
+Harrison Bloom                                 Sales                          Oxford                        
+Tayler Fox                                     Sales                          Oxford                        
+William Smith                                  Sales                          Oxford                        
+Elizabeth Bates                                Sales                          Oxford                        
+Sundita Kumar                                  Sales                          Oxford                        
+
+Name                                           DEPARTMENT_NAME                CITY                          
+---------------------------------------------- ------------------------------ ------------------------------
+Ellen Abel                                     Sales                          Oxford                        
+Alyssa Hutton                                  Sales                          Oxford                        
+Jonathon Taylor                                Sales                          Oxford                        
+Jack Livingston                                Sales                          Oxford                        
+Kimberely Grant                                Sales                          Oxford                        
+Charles Johnson                                Sales                          Oxford                        
+Den Raphaely                                   Purchasing                     Stretford                     
+Alexander Khoo                                 Purchasing                     Stretford                     
+Shelli Baida                                   Purchasing                     Stretford                     
+Sigal Tobias                                   Purchasing                     Stretford                     
+Guy Himuro                                     Purchasing                     Stretford                     
+
+Name                                           DEPARTMENT_NAME                CITY                          
+---------------------------------------------- ------------------------------ ------------------------------
+Karen Colmenares                               Purchasing                     Stretford                     
+SquishMe HishMeh                               Public Relations               Munich                        
+Hermann Baer                                   Public Relations               Munich                        
+Moe SquishyHishy                               Public Relations               Munich                        
+Berkay Onca                                    Public Relations               Munich                        
+
+115 rows selected. 
+
+no rows selected
+
+DEPARTMENT_NAME                COUNT(EMPLOYEE_ID)
+------------------------------ ------------------
+Accounting                                      2
+Administration                                  1
+Benefits                                        0
+Construction                                    0
+Contracting                                     0
+Control And Credit                              0
+Corporate Tax                                   0
+Executive                                       3
+Finance                                         6
+Government Sales                                0
+Human Resources                                 1
+
+DEPARTMENT_NAME                COUNT(EMPLOYEE_ID)
+------------------------------ ------------------
+IT                                              5
+IT Helpdesk                                     0
+IT Support                                      3
+Manufacturing                                   0
+Marketing                                       2
+NOC                                             0
+Operations                                      2
+Payroll                                         0
+Public Relations                                4
+Purchasing                                      6
+Recruiting                                      0
+
+DEPARTMENT_NAME                COUNT(EMPLOYEE_ID)
+------------------------------ ------------------
+Retail Sales                                    0
+Sales                                          35
+Shareholder Services                            0
+Shipping                                       45
+Treasury                                        0
+
+27 rows selected. 
+
+
+Name                                               SALARY
+---------------------------------------------- ----------
+Hareesh Parameswaran                                51000
+Berkoy Oncay                                        51000
+Moe Bayram                                         125145
+SquishMe HishMeh                                   132000
+Steven Kin                                          24000
+Neena Kochhar                                       17000
+Lex De Haan                                         17000
+Nancy Greenberg                                     12000
+Den Raphaely                                        11000
+John Russell                                        14000
+Karen Partners                                      13500
+
+Name                                               SALARY
+---------------------------------------------- ----------
+Alberto Errazuriz                                   12000
+Gerald Cambrault                                    11000
+Eleni Zlotkey                                       10500
+Clara Vishney                                       10500
+Lisa Ozer                                           11500
+Ellen Abel                                          11000
+Michael Hartstein                                   13000
+Shelley Higgins                                     12000
+Tech Global                                         50000
+Moe SquishyHishy                                   545000
+Berkay Onca                                        132000
+
+Name                                               SALARY
+---------------------------------------------- ----------
+Omar YahYah                                        540000
+
+23 rows selected. 
+
+
+DEPARTMENT_NAME                Avg_Salary
+------------------------------ ----------
+Sales                                8900
+IT Support                         214000
+Marketing                            9500
+Executive                           19333
+Finance                              8600
+Public Relations                   204750
+Accounting                          10150
+Operations                          87573
+
+8 rows selected. 
+
+
+Name
+----------------------------------------------
+Alexander Hunold
+Bruce Ernst
+David Austin
+Valli Pataballa
+Diana Lorentz
+
+
+FIRST_NAME           LAST_NAME                
+-------------------- -------------------------
+Moe                  Bayram                   
+Jennifer             Whalen                   
+Michael              Hartstein                
+Susan                Mavris                   
+Shelley              Higgins                  
+Moe                  SquishyHishy             
+Omar                 YahYah                   
+
+7 rows selected. 
+
+
+MANAGER_ID EMPLOYEE_ID FIRST_NAME           LAST_NAME                 EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY COMMISSION_PCT MANAGER_ID DEPARTMENT_ID
+---------- ----------- -------------------- ------------------------- ------------------------- -------------------- -------- ---------- ---------- -------------- ---------- -------------
+       100         100 Steven               Kin                       SKING                     515.123.4567         17/06/87 AD_PRES         24000                       101            90
+       101         101 Neena                Kochhar                   NKOCHHAR                  515.123.4568         21/09/89 AD_VP           17000                       100            90
+       102         102 Lex                  De Haan                   LDEHAAN                   515.123.4569         13/01/92 AD_VP           17000                       100            90
+       103         103 Alexander            Hunold                    AHUNOLD                   590.423.4567         03/01/90 IT_PROG          9000                       102            60
+       108         108 Nancy                Greenberg                 NGREENBE                  515.124.4569         17/08/94 FI_MGR          12000                       101           100
+       114         114 Den                  Raphaely                  DRAPHEAL                  515.127.4561         07/12/94 PU_MAN          11000                       100            30
+       120         120 Matthew              Weiss                     MWEISS                    650.123.1234         18/07/96 ST_MAN           8000                       100            50
+       121         121 Adam                 Fripp                     AFRIPP                    650.123.2234         10/04/97 ST_MAN           8200                       100            50
+       122         122 Payam                Kaufling                  PKAUFLIN                  650.123.3234         01/05/95 ST_MAN           7900                       100            50
+       123         123 Shanta               Vollman                   SVOLLMAN                  650.123.4234         10/10/97 ST_MAN           6500                       100            50
+       124         124 Kevin                Mourgos                   KMOURGOS                  650.123.5234         16/11/99 ST_MAN           5800                       100            50
+
+MANAGER_ID EMPLOYEE_ID FIRST_NAME           LAST_NAME                 EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY COMMISSION_PCT MANAGER_ID DEPARTMENT_ID
+---------- ----------- -------------------- ------------------------- ------------------------- -------------------- -------- ---------- ---------- -------------- ---------- -------------
+       145         145 John                 Russell                   JRUSSEL                   011.44.1344.429268   01/10/96 SA_MAN          14000             .4        100            80
+       146         146 Karen                Partners                  KPARTNER                  011.44.1344.467268   05/01/97 SA_MAN          13500             .3        100            80
+       147         147 Alberto              Errazuriz                 AERRAZUR                  011.44.1344.429278   10/03/97 SA_MAN          12000             .3        100            80
+       148         148 Gerald               Cambrault                 GCAMBRAU                  011.44.1344.619268   15/10/99 SA_MAN          11000             .3        100            80
+       149         149 Eleni                Zlotkey                   EZLOTKEY                  011.44.1344.429018   29/01/00 SA_MAN          10500             .2        100            80
+       201         201 Michael              Hartstein                 MHARTSTE                  515.123.5555         17/02/96 MK_MAN          13000                       100            20
+       203         203 Susan                Mavris                    SMAVRIS                   515.123.7777         07/06/94 HR_REP           6500                       101            40
+       205         205 Shelley              Higgins                   SHIGGINS                  515.123.8080         07/06/94 AC_MGR          12000                       101           110
+                                                                                                                                                                                           
+
+20 rows selected. 
+
+
+DEPARTMENT_ID DEPARTMENT_NAME                CITY                          
+------------- ------------------------------ ------------------------------
+           60 IT                             Southlake                     
+           50 Shipping                       South San Francisco           
+          200 Operations                     South Brunswick               
+           10 Administration                 Seattle                       
+           90 Executive                      Seattle                       
+          100 Finance                        Seattle                       
+          110 Accounting                     Seattle                       
+          120 Treasury                       Seattle                       
+          130 Corporate Tax                  Seattle                       
+          140 Control And Credit             Seattle                       
+          150 Shareholder Services           Seattle                       
+
+DEPARTMENT_ID DEPARTMENT_NAME                CITY                          
+------------- ------------------------------ ------------------------------
+          160 Benefits                       Seattle                       
+          170 Manufacturing                  Seattle                       
+          180 Construction                   Seattle                       
+          190 Contracting                    Seattle                       
+          210 IT Support                     Seattle                       
+          220 NOC                            Seattle                       
+          230 IT Helpdesk                    Seattle                       
+          240 Government Sales               Seattle                       
+          250 Retail Sales                   Seattle                       
+          260 Recruiting                     Seattle                       
+          270 Payroll                        Seattle                       
+
+DEPARTMENT_ID DEPARTMENT_NAME                CITY                          
+------------- ------------------------------ ------------------------------
+           20 Marketing                      Toronto                       
+           40 Human Resources                London                        
+           80 Sales                          Oxford                        
+           30 Purchasing                     Stretford                     
+           70 Public Relations               Munich                        
+
+27 rows selected. 
+
+
+Name                                               SALARY DEPARTMENT_ID
+---------------------------------------------- ---------- -------------
+Moe SquishyHishy                                   545000            70
+Omar YahYah                                        540000           210
+SquishMe HishMeh                                   132000            70
+Berkay Onca                                        132000            70
+Moe Bayram                                         125145           200
+Hareesh Parameswaran                                51000           210
+Berkoy Oncay                                        51000           210
+Tech Global                                         50000           200
+Steven Kin                                          24000            90
+
+9 rows selected. 
+
+
+FIRST_NAME           LAST_NAME                     SALARY DEPARTMENT_ID
+-------------------- ------------------------- ---------- -------------
+Hareesh              Parameswaran                   51000           210
+Berkoy               Oncay                          51000           210
+Moe                  Bayram                        125145           200
+SquishMe             HishMeh                       132000            70
+Steven               Kin                            24000            90
+Neena                Kochhar                        17000            90
+Lex                  De Haan                        17000            90
+Alexander            Hunold                          9000            60
+Nancy                Greenberg                      12000           100
+Daniel               Faviet                          9000           100
+John                 Chen                            8200           100
+
+FIRST_NAME           LAST_NAME                     SALARY DEPARTMENT_ID
+-------------------- ------------------------- ---------- -------------
+Ismael               Sciarra                         7700           100
+Jose Manuel          Urman                           7800           100
+Luis                 Popp                            6900           100
+Den                  Raphaely                       11000            30
+Matthew              Weiss                           8000            50
+Adam                 Fripp                           8200            50
+Payam                Kaufling                        7900            50
+John                 Russell                        14000            80
+Karen                Partners                       13500            80
+Alberto              Errazuriz                      12000            80
+Gerald               Cambrault                      11000            80
+
+FIRST_NAME           LAST_NAME                     SALARY DEPARTMENT_ID
+-------------------- ------------------------- ---------- -------------
+Eleni                Zlotkey                        10500            80
+Peter                Tucker                         10000            80
+David                Bernstein                       9500            80
+Peter                Hall                            9000            80
+Christopher          Olsen                           8000            80
+Nanette              Cambrault                       7500            80
+Oliver               Tuvault                         7000            80
+Janette              Kin                            10000            80
+Patrick              Sully                           9500            80
+Allan                McEwen                          9000            80
+Lindsey              Smith                           8000            80
+
+FIRST_NAME           LAST_NAME                     SALARY DEPARTMENT_ID
+-------------------- ------------------------- ---------- -------------
+Louise               Doran                           7500            80
+Sarath               Sewall                          7000            80
+Clara                Vishney                        10500            80
+Danielle             Greene                          9500            80
+Mattea               Marvins                         7200            80
+David                Lee                             6800            80
+Lisa                 Ozer                           11500            80
+Harrison             Bloom                          10000            80
+Tayler               Fox                             9600            80
+William              Smith                           7400            80
+Elizabeth            Bates                           7300            80
+
+FIRST_NAME           LAST_NAME                     SALARY DEPARTMENT_ID
+-------------------- ------------------------- ---------- -------------
+Ellen                Abel                           11000            80
+Alyssa               Hutton                          8800            80
+Jonathon             Taylor                          8600            80
+Jack                 Livingston                      8400            80
+Kimberely            Grant                           7000            80
+Michael              Hartstein                      13000            20
+Hermann              Baer                           10000            70
+Shelley              Higgins                        12000           110
+William              Gietz                           8300           110
+Tech                 Global                         50000           200
+Moe                  SquishyHishy                  545000            70
+
+FIRST_NAME           LAST_NAME                     SALARY DEPARTMENT_ID
+-------------------- ------------------------- ---------- -------------
+Berkay               Onca                          132000            70
+Omar                 YahYah                        540000           210
+
+57 rows selected. 
+
+
+DEPARTMENT_NAME                LOCATION_ID
+------------------------------ -----------
+Purchasing                            2600
+
+
+DEPARTMENT_ID DEPARTMENT_NAME                MANAGER_ID LOCATION_ID
+------------- ------------------------------ ---------- -----------
+          200 Operations                            203        1600
+
+
+DEPARTMENT_NAME                CITY                          
+------------------------------ ------------------------------
+IT                             Southlake                     
+Shipping                       South San Francisco           
+Operations                     South Brunswick               
+Administration                 Seattle                       
+Executive                      Seattle                       
+Finance                        Seattle                       
+Accounting                     Seattle                       
+Treasury                       Seattle                       
+Corporate Tax                  Seattle                       
+Control And Credit             Seattle                       
+Shareholder Services           Seattle                       
+
+DEPARTMENT_NAME                CITY                          
+------------------------------ ------------------------------
+Benefits                       Seattle                       
+Manufacturing                  Seattle                       
+Construction                   Seattle                       
+Contracting                    Seattle                       
+IT Support                     Seattle                       
+NOC                            Seattle                       
+IT Helpdesk                    Seattle                       
+Government Sales               Seattle                       
+Retail Sales                   Seattle                       
+Recruiting                     Seattle                       
+Payroll                        Seattle                       
+
+22 rows selected. 
+
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_NAME               
+-------------------- ------------------------- ------------------------------
+Stephen              Stiles                    Shipping                      
+John                 Seo                       Shipping                      
+Martha               Sullivan                  Shipping                      
+Nandita              Sarchand                  Shipping                      
+Moe                  SquishyHishy              Public Relations              
+Patrick              Sully                     Sales                         
+Lindsey              Smith                     Sales                         
+Sarath               Sewall                    Sales                         
+William              Smith                     Sales                         
+Ismael               Sciarra                   Finance                       
+
+10 rows selected. 
+
+
+DEPARTMENT_NAME                Employee_count
+------------------------------ --------------
+Sales                                      35
+IT Support                                  3
+Purchasing                                  6
+Shipping                                   45
+IT                                          5
+Executive                                   3
+Finance                                     6
+Public Relations                            4
+
+8 rows selected. 
