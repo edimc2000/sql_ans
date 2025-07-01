@@ -27,22 +27,12 @@ SELECT *
   AND 2500;
 
 -- 5.	Write a SQL query to find the first name, last name, department, city, and state province for each employee.
-SELECT employees.first_name,
-       employees.last_name,
-       departments.department_name,
-       departments.city,
-       departments.state_province
-  FROM employees
-  JOIN (
-   SELECT departments.*,
-          locations.city,
-          locations.state_province
-     FROM departments
-     JOIN locations
-   ON departments.location_id = locations.location_id
-) departments
-ON employees.department_id = departments.department_id;
-
+SELECT e.first_name, e.last_name, d.department_name, l.city, l.state_province
+  FROM employees e
+  LEFT JOIN departments d 
+  ON e.department_id = d.department_id 
+  LEFT JOIN locations l 
+  ON d.location_id = l.location_id;
 
 -- 6.	Write a SQL query to find all those employees who work in department ID 80 or 40. Return first name, last name, department number, and department name.
 SELECT employees.first_name,
