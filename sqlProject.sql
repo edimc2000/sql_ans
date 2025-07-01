@@ -1,4 +1,4 @@
-1.	Write a query to display the employee id, employee name (first name and last name) for all employees who earn more than the average salary. 
+-- 1.	Write a query to display the employee id, employee name (first name and last name) for all employees who earn more than the average salary. 
 SELECT employee_id, first_name || ' ' || last_name AS "Employee Name"
  FROM employees
  WHERE salary > ( SELECT AVG( salary ) FROM employees ); 
@@ -278,15 +278,21 @@ SELECT e.employee_id,
 -- 26.	Write a query to display the name (first name and last name), salary, department id for 
 -- those employees who earn such amount of salary which is the smallest salary of any of the departments.
 
--- not sure what is required here but my guess is to display the detail for the person earning the least on their departments 
+SELECT  first_name || ' ' || last_name AS "Name",
+        salary, 
+        department_id
+  FROM employees
+  WHERE salary  IN (  SELECT MIN(salary)
+                      FROM employees 
+                      GROUP BY department_id );
 
 
 -- 27.	Write a query to display all the information of an employee whose salary and reporting 
 -- person id is 3000 and 121, respectively.
 
 SELECT * 
-  from EMPLOYEES
-  where salary = 3000
+  FROM EMPLOYEES
+  WHERE salary = 3000
   AND manager_id = 121; 
 
 -- 28.	Display the employee name (first name and last name), employee id, and job title for all 
@@ -455,16 +461,69 @@ SELECT  first_name || ' ' || last_name AS "Name",
 -- 45.	Write a query in SQL to display the first and last name, salary, and department ID for those employees who earn 
 -- more than the maximum salary of a department which ID is 40.
 
+SELECT first_name, last_name, salary, department_id 
+  FROM employees
+  WHERE salary > (  SELECT MAX (salary)
+                      FROM employees 
+                      WHERE department_id = 40
+                  );
+-- max salary for dep id 40 is 6500
+
+
+
 -- 46.	Write a query in SQL to display the department name and Id for all departments where they located, that Id is 
 -- equal to the Id for the location where department number 30 is located.
 
+SELECT d.department_name,
+       l.location_id 
+  FROM departments d
+  LEFT JOIN locations l
+  ON d.location_id = l.location_id
+  WHERE d.location_id = ( SELECT location_id
+                        FROM departments
+                        WHERE department_id = 30
+                      )  ;
+
+-- dep 30's location id is 2600 (stretford macnhester uk )
+-- an sql query for department name and ID (location id?) where they are located
+-- id should be equal to the location id of department_id = 30
+
+
+
 -- 47.	Write a query in SQL to display the details of departments managed by Susan.
+SELECT d.*
+  FROM employees e
+  LEFT JOIN departments d
+  ON e.department_id = d.department_id
+  WHERE e.manager_id = (SELECT employee_id FROM employees WHERE first_name = 'Susan');
+
+-- susan's employee id is 203
+
 
 -- 48.	Write a query to display the department names and the location cities. Only include departments that are 
 -- located in a country with the country_id 'US'.
+SELECT  d.department_name, 
+        l.city
+  FROM departments d
+  JOIN locations l 
+  ON d.location_id = l.location_id
+  WHERE l.country_id = 'US';
 
 -- 49.	Write a query to display the first name and last name of employees along with the name of the department they work in. 
 -- Only include employees whose last name starts with the letter 'S'.
 
+SELECT first_name, last_name, department_name
+  FROM employees e
+  JOIN departments d 
+  ON e.department_id = d.department_id
+  WHERE last_name LIKE 'S%'; 
+
+
 -- 50.	Write a query to display the department names and the number of employees in each department. 
 -- Only include departments with more than 2 employees, and order the result by the number of employees in descending order.
+SELECT department_name, count(employee_id) AS "Employee_count"
+  FROM employees e 
+  JOIN departments d 
+  ON e.department_id = d.department_id
+  GROUP BY department_name
+  HAVING count(employee_id) > 2;
